@@ -1,0 +1,699 @@
+#ow_fnav2 li a#ow_fnav2_a_firstone {
+  background-image: url("https://picsum.photos/seed/picsum/200/300");
+}
+
+.sobc-home #ow_fnav2 li a#ow_fnav2_a_firstone {
+  background-image: url("../img/icon2_gift_white.png");
+}
+
+.ow_fnav_li_2 a,
+.ow_fnav_li_2 a {
+  background-image: url("../img/icon2_home_blue.png");
+}
+
+.sobc-home .ow_fnav_li_2 a,
+.ow_fnav_li_2 a {
+  background-image: url("../img/icon2_home_white.png");
+}
+
+.ow_fnav_li_3 a {
+  background-image: url("../img/icon2_search_blue.png");
+}
+
+.sobc-home .ow_fnav_li_3 a {
+  background-image: url("../img/icon2_search_white.png");
+}
+
+.ow_fnav_li_4 a {
+  background-image: url("../img/update-icon-new-dark-blue.png");
+}
+
+.sobc-home .ow_fnav_li_4 a {
+  background-image: url("../img/update-icon-new-white.png");
+}
+
+.ow_fnav_li_5 a {
+  background-image: url("../img/icon2_favourites_blue.png");
+}
+
+.sobc-home .ow_fnav_li_5 a {
+  background-image: url("../img/icon2_favourites_white.png");
+}
+
+ul.master-nav li.nav-chooselanguage a {
+  background-image: url("../img/icon2_globe_white.png?openelement");
+}
+
+ul.master-nav li.nav-message_from_bat_gce a {
+  background-image: url("../img/icon2_person_message_video_white.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-policies a {
+  background-image: url("../img/icon2_dna_light_blue.png");
+}
+
+.removed18oct2023 ul.master-nav li.nav-fromraichiefexec a {
+  background-image: url("../img/icon2_person_white.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-offlinesignoff-language-list a {
+  background-image: url("../img/icon2_signoff_white.png");
+}
+
+.removed18oct2023 ul.master-nav li.nav-offlinesignoff a {
+  /*background-image: url("../img/icon2_signoff_white.png");*/
+  background-image: url("https://groupms/control.nsf/vwFiles/FLC8KHXH/$File/UK.png");
+}
+
+.removed18oct2023 ul.master-nav li.nav-offlinesignofffaq a {
+  background-image: url("../img/icon2_signoff_faq_white.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-pledge2021 a {
+  background-image: url("../img/icon2_handshake_white.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-find a {
+  background-image: url("../img/icon2_microscope_white.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-howtospeakup a {
+  background-image: url("../img/icon2_speak_light_green.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-hotline-numbers a {
+  background-image: url("../img/icon2_phone_light_green.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-want2disclose a {
+  background-image: url("../img/icon2_microphone_yellow.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-ethicaljudgement a {
+  background-image: url("../img/icon2_compass_white.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-rolelinemanagers a {
+  background-image: url("../img/icon2_team_white.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-how2install a {
+  background-image: url("../img/icon2_download_white.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-contacts a {
+  background-image: url("../img/icon2_book_white.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-testyourknowledge a {
+  background-image: url("../img/icon2_award_white.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-tandc a {
+  background-image: url("../img/icon2_lock_white.png?openelement");
+}
+
+/* SCoC */
+.removed18oct2023 ul.master-nav li.nav-fromdirectoroperations a {
+  background-image: url("../img/icon2_person_white.png?openelement");
+}
+
+.removed18oct2023 ul.master-nav li.nav-message_from_doo a {
+  background-image: url("../img/icon2_person_message_video_white.png?openelement");
+}
+
+.removed18oct2023 .sobc-home .mainContentInner ul li a:after {
+  background-image: url("../img/nav-arrow-right.png");
+}
+
+.js .pageTitle .ptBookmark {
+  background-image: url("../img/star_hollow_white.png");
+}
+
+a.link.inline-external i.icon-newwindow {
+  background-image: url("../img/icon-link-generic.png");
+}
+
+.exp-language-block .lbHeader::after {
+  background-image: url("../img/bat-accordion-plus.png");
+}
+
+.exp-language-block[data-language="ENGLISH"] .lbHeader::before {
+  background-image: url("../img/UK-mobile.png");
+}
+
+.exp-language-block[data-language="FRENCH"] .lbHeader::before {
+  background-image: url("../img/France-mobile.png");
+}
+
+.exp-language-block[data-language="PORTUGUESE"] .lbHeader::before {
+  background-image: url("../img/Brazilian-portuguese-mobile.png");
+}
+
+.exp-language-block[data-language="POLISH"] .lbHeader::before {
+  background-image: url("../img/Polish-mobile.png");
+}
+
+.exp-language-block[data-language="ARABIC"] .lbHeader::before {
+  background-image: url("../img/Arabic-mobile.png");
+}
+
+.exp-language-block[data-language="BENGALI"] .lbHeader::before {
+  background-image: url("../img/Bangladeshi-mobile.png");
+}
+
+.exp-language-block[data-language="CHINESE"] .lbHeader::before {
+  background-image: url("../img/Simplified-chinese-mobile.png");
+}
+
+.exp-language-block[data-language="BAHASA"] .lbHeader::before {
+  background-image: url("../img/Indonesian-mobile.png");
+}
+
+.exp-language-block[data-language="JAPANESE"] .lbHeader::before {
+  background-image: url("../img/Japanese-mobile.png");
+}
+
+.exp-language-block[data-language="KOREAN"] .lbHeader::before {
+  background-image: url("../img/South-korean-mobile.png");
+}
+
+.exp-language-block[data-language="ROMANIAN"] .lbHeader::before {
+  background-image: url("../img/Romanian-mobile.png");
+}
+
+.exp-language-block[data-language="RUSSIAN"] .lbHeader::before {
+  background-image: url("../img/Russian-mobile.png");
+}
+
+.exp-language-block[data-language="SPANISH"] .lbHeader::before {
+  background-image: url("../img/Spanish-mobile.png");
+}
+
+.exp-language-block[data-language="SPANISH-LATAM"] .lbHeader::before {
+  background-image: url("../img/mexico-desktop.png");
+}
+
+.exp-language-block[data-language="TURKISH"] .lbHeader::before {
+  background-image: url("../img/Turkish-mobile.png");
+}
+
+.exp-language-block[data-language="URDU"] .lbHeader::before {
+  background-image: url("../img/Pakistani-urdu-mobile.png");
+}
+
+.exp-language-block[data-language="RAI"] .lbHeader::before {
+  background-image: url("../img/USA-mobile.png");
+}
+
+.exp-language-block[data-language="VIETNAMESE"] .lbHeader::before {
+  background-image: url("../img/vietnamese-mobile.png");
+}
+
+.exp-language-block[data-language="CZECH"] .lbHeader::before {
+  background-image: url("../img/czech-desktop.png");
+}
+
+.exp-language-block[data-language="GERMAN"] .lbHeader::before {
+  background-image: url("../img/German-mobile.png");
+}
+
+.exp-language-block[data-language="UKRAINIAN"] .lbHeader::before {
+  background-image: url("../img/ukrainian-mobile.png");
+}
+
+.section-Main .pageBanner .pBBookmark,
+.section-Policies-Contents .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-generic.png?openelement");
+}
+
+.section-Main .pageBanner .pBBookmark.bookmarked,
+.section-Policies-Contents .pageBanner .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-generic-filled.png?openelement");
+}
+
+/* .section-Main-generic */
+
+.section-Main-generic .pageBanner .pBBookmark,
+.section-Main-generic-multi-column .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-generic.png?openelement");
+}
+
+.section-Main-generic .pageBanner .pBBookmark.bookmarked,
+.section-Main-generic-multi-column .pageBanner .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-generic-filled.png?openelement");
+}
+
+.section-Main-generic a.link.inline-external i.icon-newwindow,
+.section-Main-generic-multi-column a.link.inline-external i.icon-newwindow {
+  background-image: url("../img/icon-link-generic.png");
+}
+
+.section-Main-generic .qlWrapper ul.ql li .qlText::after,
+.section-Main-generic-multi-column .qlWrapper ul.ql li .qlText::after {
+  background-image: url("../img/down-arrow-generic.png");
+}
+
+.section-Policies-Introduction .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-dark-blue.png?openelement");
+}
+
+.section-Policies-Introduction .pageBanner .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-dark-blue-filled.png?openelement");
+}
+
+.section-Policies-Introduction a.link.inline-external i.icon-newwindow {
+  background-image: url("../img/icon-link-introduction.png");
+}
+
+.section-Policies-Introduction .qlWrapper ul.ql li .qlText::after {
+  background-image: url("../img/down-arrow-mid-blue.png");
+}
+
+.section-Policies-Personal-and-business-integrity .pageBanner .pBBookmark,
+.section-Main-I-want-to-disclose-a-conflict .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-yellow.png?openelement");
+}
+
+.section-Policies-Marketing-and-trade .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-orange.png?openelement");
+}
+
+.section-Policies-Personal-and-business-integrity
+  .pageBanner
+  .pBBookmark.bookmarked,
+.section-Main-I-want-to-disclose-a-conflict .pageBanner .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-yellow-filled.png?openelement");
+}
+
+.section-Policies-Marketing-and-trade .pageBanner .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-orange-filled.png?openelement");
+}
+
+.section-Policies-Personal-and-business-integrity
+  a.link.inline-external
+  i.icon-newwindow,
+.section-Main-I-want-to-disclose-a-conflict
+  a.link.inline-external
+  i.icon-newwindow {
+  background-image: url("../img/icon-link-yellow.png");
+}
+
+.section-Policies-Marketing-and-trade a.link.inline-external i.icon-newwindow {
+  background-image: url("../img/icon-link-orange.png");
+}
+
+.section-Policies-Personal-and-business-integrity
+  .qlWrapper
+  ul.ql
+  li
+  .qlText::after,
+.section-Main-I-want-to-disclose-a-conflict .qlWrapper ul.ql li .qlText::after {
+  background-image: url("../img/down-arrow-yellow.png");
+}
+
+.section-Policies-Marketing-and-trade .qlWrapper ul.ql li .qlText::after {
+  background-image: url("../img/down-arrow-orange.png");
+}
+
+.section-Policies-Speak-up .pageBanner .pBBookmark,
+.section-Main-How-to-Speak-Up .pageBanner .pBBookmark,
+.section-Policies-Compliance .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-light-green.png?openelement");
+}
+
+.section-Policies-Speak-up .pageBanner .pBBookmark.bookmarked,
+.section-Main-How-to-Speak-Up .pageBanner .pBBookmark.bookmarked,
+.section-Policies-Compliance .pageBanner .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-light-green-filled.png?openelement");
+}
+
+.section-Policies-Speak-up a.link.inline-external i.icon-newwindow,
+.section-Main-How-to-Speak-Up a.link.inline-external i.icon-newwindow,
+.section-Policies-Compliance a.link.inline-external i.icon-newwindow {
+  background-image: url("../img/icon-link-light-green.png");
+}
+
+.section-Policies-Speak-up .qlWrapper ul.ql li .qlText::after,
+.section-Main-How-to-Speak-Up .qlWrapper ul.ql li .qlText::after,
+.section-Policies-Compliance .qlWrapper ul.ql li .qlText::after {
+  background-image: url("../img/down-arrow-light-green.png");
+}
+
+/* .section-Policies-Social-and-environment */
+
+.section-Policies-Social-and-environment .pageBanner .pBBookmark,
+.section-Policies-Human-rights .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-pink.png?openelement");
+}
+
+.section-Policies-Social-and-environment .pageBanner .pBBookmark.bookmarked,
+.section-Policies-Human-rights .pageBanner .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-pink-filled.png?openelement");
+}
+
+.section-Policies-Social-and-environment
+  a.link.inline-external
+  i.icon-newwindow,
+.section-Policies-Human-rights a.link.inline-external i.icon-newwindow {
+  background-image: url("../img/icon-link-pink.png");
+}
+
+.section-Policies-Social-and-environment .qlWrapper ul.ql li .qlText::after,
+.section-Policies-Human-rights .qlWrapper ul.ql li .qlText::after {
+  background-image: url("../img/down-arrow-pink.png");
+}
+
+/* .section-Policies-External-stakeholders */
+
+.section-Policies-External-stakeholders .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-cyan.png?openelement");
+}
+
+.section-Policies-External-stakeholders .pageBanner .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-cyan-filled.png?openelement");
+}
+
+.section-Policies-External-stakeholders
+  a.link.inline-external
+  i.icon-newwindow {
+  background-image: url("../img/icon-link-cyan.png");
+}
+
+.section-Policies-External-stakeholders .qlWrapper ul.ql li .qlText::after {
+  background-image: url("../img/down-arrow-cyan.png");
+}
+
+/* .section-Policies-Corporate-assets-and-financial-integrity */
+
+.section-Policies-Corporate-assets-and-financial-integrity
+  .pageBanner
+  .pBBookmark,
+.section-Policies-Environmental-sustainability .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-dark-green.png?openelement");
+}
+
+.section-Policies-Corporate-assets-and-financial-integrity
+  .pageBanner
+  .pBBookmark.bookmarked,
+.section-Policies-Environmental-sustainability
+  .pageBanner
+  .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-dark-green-filled.png?openelement");
+}
+
+.section-Policies-Corporate-assets-and-financial-integrity
+  a.link.inline-external
+  i.icon-newwindow,
+.section-Policies-Environmental-sustainability
+  a.link.inline-external
+  i.icon-newwindow {
+  background-image: url("../img/icon-link-dark-green.png");
+}
+
+.section-Policies-Corporate-assets-and-financial-integrity
+  .qlWrapper
+  ul.ql
+  li
+  .qlText::after,
+.section-Policies-Environmental-sustainability
+  .qlWrapper
+  ul.ql
+  li
+  .qlText::after {
+  background-image: url("../img/down-arrow-dark-green.png");
+}
+
+/* .section-Policies-National-and-international-trade */
+
+.section-Policies-National-and-international-trade .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-orange.png?openelement");
+}
+
+.section-Policies-Business-integrity .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-yellow.png?openelement");
+}
+
+.section-Policies-National-and-international-trade
+  .pageBanner
+  .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-orange-filled.png?openelement");
+}
+
+.section-Policies-Business-integrity .pageBanner .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-yellow-filled.png?openelement");
+}
+
+.section-Policies-National-and-international-trade
+  a.link.inline-external
+  i.icon-newwindow {
+  background-image: url("../img/icon-link-orange.png");
+}
+
+.section-Policies-Business-integrity a.link.inline-external i.icon-newwindow {
+  background-image: url("../img/icon-link-yellow.png");
+}
+
+.section-Policies-National-and-international-trade
+  .qlWrapper
+  ul.ql
+  li
+  .qlText::after {
+  background-image: url("../img/down-arrow-orange.png");
+}
+
+.section-Policies-Business-integrity .qlWrapper ul.ql li .qlText::after {
+  background-image: url("../img/down-arrow-yellow.png");
+}
+
+footer ul#ow_fnav4 li.ow_fnav_li_4 a {
+  background-image: url("../img/help_white.png");
+}
+
+footer ul#ow_fnav4 li.ow_fnav_li_5 a {
+  background-image: url("../img/gateway_white.png");
+}
+
+footer ul#ow_fnav4 li.ow_fnav_li_6 a {
+  background-image: url("../img/pageback_white.png");
+}
+
+footer ul#ow_fnav4 li.ow_fnav_li_7 a {
+  background-image: url("../img/totop_white.png");
+}
+
+.vl-poster::after {
+  background-image: url("../img/play-icon.png?openelement");
+}
+
+.transcript::before {
+  background-image: url("../img/transcript-icon.png?openelement");
+}
+
+#glossaryPop .fixedHeader .gClose {
+  background-image: url("../img/glClose.jpg");
+}
+
+li.cross::before {
+  background-image: url("https://groupms/control.nsf/vwFiles/FLC3QGFK/$File/cross.png");
+}
+
+li.tick::before {
+  background-image: url("https://groupms/control.nsf/vwFiles/FLC3QGFK/$File/tick.png");
+}
+
+.sectionHeader.contact h4::before {
+  background-image: url("../img/contact-dark-blue.png");
+}
+
+.section-Policies-Speak-up .sectionHeader.contact h4::before,
+.section-Policies-Compliance .sectionHeader.contact h4::before {
+  background-image: url("../img/contact-light-green.png");
+}
+
+.section-Policies-Social-and-environment .sectionHeader.contact h4::before,
+.section-Policies-Human-rights .sectionHeader.contact h4::before {
+  background-image: url("../img/contact-pink.png");
+}
+
+.section-Policies-Business-integrity .sectionHeader.contact h4::before,
+.section-Policies-Personal-and-business-integrity
+  .sectionHeader.contact
+  h4::before {
+  background-image: url("../img/contact-yellow.png");
+}
+
+.section-Policies-External-stakeholders .sectionHeader.contact h4::before {
+  background-image: url("../img/contact-cyan.png");
+}
+
+.section-Policies-Environmental-sustainability
+  .sectionHeader.contact
+  h4::before,
+.section-Policies-Corporate-assets-and-financial-integrity
+  .sectionHeader.contact
+  h4::before {
+  background-image: url("../img/contact-dark-green.png");
+}
+
+.section-Policies-Marketing-and-trade .sectionHeader.contact h4::before,
+.section-Policies-National-and-international-trade
+  .sectionHeader.contact
+  h4::before {
+  background-image: url("../img/contact-orange.png");
+}
+
+.section-Policies-Introduction .sectionHeader.contact h4::before {
+  background-image: url("../img/contact-mid-blue.png");
+}
+
+body.page-glossary .pageBanner .pBBookmark {
+  background-image: url("../img/fav-star-introduction.png?openelement");
+}
+
+body.page-glossary .pageBanner .pBBookmark.bookmarked {
+  background-image: url("../img/fav-star-introduction-filled.png?openelement");
+}
+
+.sectionHeader.WhatAreSanctions h4::before {
+  background-image: url("../img/what-are-sanctions.png");
+}
+
+/* DESKTOP OVERRIDES */
+
+#ow_fnav2 li a#ow_fnav2_a_firstone {
+  background-image: url("../img/icon2_gift_blue.png");
+}
+
+.ow_fnav_li_2 a,
+.ow_fnav_li_2 a {
+  background-image: url("../img/icon2_home_blue.png");
+}
+
+/* #ow_fnav2 li a[href*="DOBL5DHB"] {
+  background-image: url("../img/icon2_settings_blue.png");
+} */
+
+.ow_fnav_li_5 a {
+  background-image: url("../img/icon2_favourites_blue.png");
+}
+
+.pageBanner .pBBookmark {
+  /* amended 18 oct 2023 background-image: url(/groupms/control.nsf/vwFiles/FLC8GDJ8/$File/fav-star-white.png?openelement)!important; */
+}
+
+.pageBanner .pBBookmark.bookmarked {
+  /* 18 oct 2023 background-image: url(/groupms/control.nsf/vwFiles/FLC8GDJ8/$File/fav-star-white-filled.png?openelement)!important; */
+}
+
+.removed18oct2023 .sobc-home.sh-sobc header .headerInner {
+  background-image: url("https://owbutils/resource.nsf/vwLive/HTML-SOBC2022BannerImages/$file/dsk-home-page-nav.jpg");
+  background-position: 0 -103px;
+}
+
+.removed18oct2023 .sobc-home.sh-scoc header .headerInner {
+  background-image: url("https://owbutils/resource.nsf/vwLive/HTML-SCOC2022BannerImages/$file/dsk-home-page-nav-scoc.jpg");
+}
+
+/* Gateway24 */
+.psLower .logo {
+  background-image: url("../img/BATLogoWhite.svg?openelement");
+}
+
+.settings-language-RAI .psItem.psSOBC .psLower .logo {
+  background-image: url("../img/reynolds_logo_white.png?openelement");
+}
+
+/* Page Specific 24 */
+.js .sobc-standard.page-bookmarksPage .bookmarkitem .bmiAction {
+  background-image: url("../img/delete-dark-blue.png");
+}
+
+.page-searchPage #searchentry {
+  background-image: url("../img/icon_search_bar.png");
+}
+
+.page-searchPage .searchResult a:after {
+  background: url("../img/expand-collapse-dark-blue.png");
+}
+
+/* Policy contents page 24 */
+
+#policy-sections ul.policy-pages li a::after {
+  background-image: url("../img/right_arrow_dark_blue.png");
+}
+
+div.section-INTRODUCTION .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/Introduction.jpg"); */
+}
+
+div.section-SPEAK_UP .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/batSpeak-up.jpg"); */
+}
+
+div.section-SOCIAL_AND_ENVIRONMENT .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/Social-and-Environment.jpg"); */
+}
+
+div.section-PERSONAL_AND_BUSINESS_INTEGRITY .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/Personal-and-Business-Integrity.jpg"); */
+}
+
+div.section-EXTERNAL_STAKEHOLDERS .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/batExternal-Stakeholders.jpg"); */
+}
+
+div.section-CORPORATE_ASSETS_AND_FINANCIAL_INTEGRITY .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/Corp-Assets-and-Fin-Integrity.jpg"); */
+}
+
+div.section-NATIONAL_AND_INTERNATIONAL_TRADE .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/National-and-International-Trade.jpg"); */
+}
+
+div.section-GLOSSARY .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/Glossary.jpg"); */
+}
+
+/* SCoC */
+
+.psect-SCOC div.section-INTRODUCTION .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/batSuppCodeIntroduction.jpg"); */
+}
+
+div.section-COMPLIANCE .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/batCompliance.jpg"); */
+}
+
+div.section-HUMAN_RIGHTS .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/batHuman-Rights.jpg"); */
+}
+
+div.section-ENVIRONMENTAL_SUSTAINABILITY .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/batEnviro-Sustainability.jpg"); */
+}
+
+div.section-MARKETING_AND_TRADE .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/batMarketing-and-Trade.jpg"); */
+}
+
+div.section-BUSINESS_INTEGRITY .hImage {
+  /* background-image:url("/groupms/control.nsf/vwFiles/FLCWR9JD/$File/batBusiness-Integrity.jpg"); */
+}
+
+/* Guidance for Line Managers */
+.page-role-of-line-managers-interactive .tOResourcesHeader::before {
+  background-image: url("../img/resources-icon.png");
+}
+
+.page-role-of-line-managers-interactive #tOuterWrap .headerClose {
+  background-image: url("../img/close_box.png");
+}
+
+.question-steps .zzzsectionContent::before {
+  background-image: url("../img/down-arrow-white.png");
+}
+
+.speak-up-hotline-numbers .hotlinenumbersWrap .phonenumber a {
+  background-image: url("../img/icon_link_phone_solid.png");
+}

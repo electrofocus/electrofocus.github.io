@@ -1,0 +1,5730 @@
+
+  ol,
+  ul {
+    list-style: inherit;
+  }
+
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 40px;
+  }
+
+    ul ul {
+      list-style: circle;
+    }
+
+  p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+*, ::before, ::after {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x:  ;
+    --tw-pan-y:  ;
+    --tw-pinch-zoom:  ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position:  ;
+    --tw-gradient-via-position:  ;
+    --tw-gradient-to-position:  ;
+    --tw-ordinal:  ;
+    --tw-slashed-zero:  ;
+    --tw-numeric-figure:  ;
+    --tw-numeric-spacing:  ;
+    --tw-numeric-fraction:  ;
+    --tw-ring-inset:  ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 rgba(0,0,0,0);
+    --tw-ring-shadow: 0 0 rgba(0,0,0,0);
+    --tw-shadow: 0 0 rgba(0,0,0,0);
+    --tw-shadow-colored: 0 0 rgba(0,0,0,0);
+    --tw-blur:  ;
+    --tw-brightness:  ;
+    --tw-contrast:  ;
+    --tw-grayscale:  ;
+    --tw-hue-rotate:  ;
+    --tw-invert:  ;
+    --tw-saturate:  ;
+    --tw-sepia:  ;
+    --tw-drop-shadow:  ;
+    --tw-backdrop-blur:  ;
+    --tw-backdrop-brightness:  ;
+    --tw-backdrop-contrast:  ;
+    --tw-backdrop-grayscale:  ;
+    --tw-backdrop-hue-rotate:  ;
+    --tw-backdrop-invert:  ;
+    --tw-backdrop-opacity:  ;
+    --tw-backdrop-saturate:  ;
+    --tw-backdrop-sepia:  ;
+    --tw-contain-size:  ;
+    --tw-contain-layout:  ;
+    --tw-contain-paint:  ;
+    --tw-contain-style:  ;
+}
+
+::backdrop {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x:  ;
+    --tw-pan-y:  ;
+    --tw-pinch-zoom:  ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position:  ;
+    --tw-gradient-via-position:  ;
+    --tw-gradient-to-position:  ;
+    --tw-ordinal:  ;
+    --tw-slashed-zero:  ;
+    --tw-numeric-figure:  ;
+    --tw-numeric-spacing:  ;
+    --tw-numeric-fraction:  ;
+    --tw-ring-inset:  ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, 0.5);
+    --tw-ring-offset-shadow: 0 0 rgba(0,0,0,0);
+    --tw-ring-shadow: 0 0 rgba(0,0,0,0);
+    --tw-shadow: 0 0 rgba(0,0,0,0);
+    --tw-shadow-colored: 0 0 rgba(0,0,0,0);
+    --tw-blur:  ;
+    --tw-brightness:  ;
+    --tw-contrast:  ;
+    --tw-grayscale:  ;
+    --tw-hue-rotate:  ;
+    --tw-invert:  ;
+    --tw-saturate:  ;
+    --tw-sepia:  ;
+    --tw-drop-shadow:  ;
+    --tw-backdrop-blur:  ;
+    --tw-backdrop-brightness:  ;
+    --tw-backdrop-contrast:  ;
+    --tw-backdrop-grayscale:  ;
+    --tw-backdrop-hue-rotate:  ;
+    --tw-backdrop-invert:  ;
+    --tw-backdrop-opacity:  ;
+    --tw-backdrop-saturate:  ;
+    --tw-backdrop-sepia:  ;
+    --tw-contain-size:  ;
+    --tw-contain-layout:  ;
+    --tw-contain-paint:  ;
+    --tw-contain-style:  ;
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+@media (min-width: 640px) {
+
+    .container {
+        max-width: 640px;
+    }
+}
+@media (min-width: 800px) {
+
+    .container {
+        max-width: 800px;
+    }
+}
+@media (min-width: 1024px) {
+
+    .container {
+        max-width: 1024px;
+    }
+}
+@media (min-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+    }
+}
+@media (min-width: 1536px) {
+
+    .container {
+        max-width: 1536px;
+    }
+}
+.language-rtl footer .footer2,
+    .language-rtl footer .footer2 #ow_fnav4_container {
+        direction: ltr;
+    }
+.nav--primary .nav__list {
+    display: flex;
+    justify-content: flex-end;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+}
+.nav--legal .nav__list {
+    display: flex;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+}
+body {
+    font-family: Open Sans, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Open Sans, sans-serif;
+}
+.main__body h2 {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+@media (min-width: 1024px) {
+
+    .main__body h2 {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+}
+.main__body h3 {
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+@media (min-width: 1024px) {
+
+    .main__body h3 {
+        font-size: 3rem;
+        line-height: 1;
+    }
+}
+.main__body h4 {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+.main__body p, .main__body ul, .main__body ol {
+    margin-bottom: 1rem;
+    line-height: 1.75rem;
+}
+.main__body ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+}
+h1.hero-title {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 32px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+/*
+   CSS FOR ITEMS COMMON TO ALL SIZES 
+   PLUS BROWSER WIDTH <= 759px 
+*/
+html,
+body {
+  min-height: 100%;
+}
+body * {
+  font-family: "Montserrat", arial, sans-serif;
+}
+/* 
+ HTML,BODY
+*/
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+/*
+ GENERIC
+*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearFloats {
+  clear: both;
+  visibility: hidden;
+  height: 0px;
+}
+ul li {
+  color: #0e2b63;
+  font-size: 14px; /*0.9375em;*/
+  line-height: 20px; /* replaced 8 nov 2023 1.429em; */ /* 1.2em; amended 18 oct 2023 */
+  margin-bottom: 8px;
+}
+html.app body {
+  display: none;
+}
+html.app .noApp {
+  display: none;
+}
+div,
+ul,
+li {
+  box-sizing: border-box;
+}
+div {
+  color: #0e2b63;
+}
+div img {
+  max-width: 100%;
+  display: block;
+}
+#overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  z-index: 5;
+  display: none;
+  opacity: 0;
+}
+#overlay.active {
+  display: block;
+}
+#overlay.dark {
+  background-color: #0e2b63;
+  opacity: 0.92;
+}
+a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+p {
+  color: #0e2b63;
+  font-size: 14px; /* replaced 8 nov 2023 0.875em; */
+  line-height: 20px; /* replaced 8 nov 2023 1.429em ; */ /* 1.28571em; amended 18 oct 2023 */
+  letter-spacing: -0.2px;
+}
+.noMarginTop {
+  margin-top: 0;
+}
+.mainContentInner ul.no-pad-horizontal,
+.pageRTL .mainContentInner ul.no-pad-horizontal {
+  padding-left: 0;
+  padding-right: 0;
+}
+.mainContentInner ul.no-pad-vertical,
+.pageRTL .mainContentInner ul.no-pad-vertical {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* hidden */
+.hidden {
+  display: none !important;
+}
+/* don't display but retain space in the dom size */
+.invisible {
+  visibility: hidden;
+}
+.mainContentInner ul.list-bordered,
+.section-intro ul.list-bordered {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.mainContentInner ul.list-bordered li,
+.mainContentInner ul.list-bordered li {
+  border-color: #0e2b63;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  padding: 7px 0;
+  margin: 0;
+}
+.mainContentInner ul.list-bordered li:first-of-type,
+.section-intro ul.list-bordered li:first-of-type {
+  border-width: 1px 0 1px 0;
+}
+.text-red {
+  color: #d0011b;
+}
+.text-green {
+  color: #50af47;
+}
+.text-orange {
+  color: #ef7e08;
+}
+/*
+ HEADER 
+*/
+header {
+  /* position: fixed; 22 nov 2023 */
+  height: 90px;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0;
+  background-color: #ffffff;
+  z-index: 2;
+}
+header .headerInner {
+  height: 100%;
+  /* full width header footer 22 Nov 2023 max-width: 1200px;*/
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sobc-home .headerInner {
+  background-color: #faba00;
+}
+zzz20231123header #logo {
+  float: left;
+  margin-top: 12px; /* Rev1 24px; */
+  margin-left: 20px;
+  width: 120px;
+}
+header #logo {
+  position: relative;
+}
+header #logo a {
+  position: absolute;
+  display: block;
+  top: 12px;
+  left: 12px;
+  width: 120px;
+  z-index: 1;
+}
+header #logo img {
+  width: 100%;
+}
+.sobc-home header img#logoDsk {
+  display: none;
+}
+img#logoRAI {
+  display: none;
+}
+.pageLanguage-RAI.section-Policies-Introduction img#logoBAT,
+.pageLanguage-RAI.section-Policies-Contents img#logoBAT,
+.pageLanguage-RAI.section-Policies-Speak-up img#logoBAT,
+.pageLanguage-RAI.section-Policies-Social-and-environment img#logoBAT,
+.pageLanguage-RAI.section-Policies-Personal-and-business-integrity img#logoBAT,
+.pageLanguage-RAI.section-Policies-External-stakeholders img#logoBAT,
+.pageLanguage-RAI.section-Policies-Corporate-assets-and-financial-integrity
+  img#logoBAT,
+.pageLanguage-RAI.section-Policies-National-and-international-trade
+  img#logoBAT {
+  display: none;
+}
+.pageLanguage-RAI.section-Policies-Introduction img#logoRAI,
+.pageLanguage-RAI.section-Policies-Contents img#logoRAI,
+.pageLanguage-RAI.section-Policies-Speak-up img#logoRAI,
+.pageLanguage-RAI.section-Policies-Social-and-environment img#logoRAI,
+.pageLanguage-RAI.section-Policies-Personal-and-business-integrity img#logoRAI,
+.pageLanguage-RAI.section-Policies-External-stakeholders img#logoRAI,
+.pageLanguage-RAI.section-Policies-Corporate-assets-and-financial-integrity
+  img#logoRAI,
+.pageLanguage-RAI.section-Policies-National-and-international-trade
+  img#logoRAI {
+  display: block;
+}
+/* 
+ NAVIGATION ITEMS
+*/
+nav {
+  position: relative;
+  height: 100%;
+  margin-left: 140px; /* allow for clickable logo on left */
+}
+.ow_skip_navigation,
+.ow_navigation_title,
+.ow_skip_end {
+  position: absolute !important;
+}
+.ow_skip_navigation,
+.ow_navigation_title,
+.ow_skip_end {
+  left: -2000px;
+  top: 0px;
+}
+#ow_fnav2_container {
+  right: 0;
+  top: 18px; /* Rev1 8px;*/
+  position: absolute;
+  z-index: 10;
+}
+ul#ow_fnav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: transparent;
+  background-color: initial;
+  width: 212px;
+  list-style: none;
+  padding: 0 6px 0 6px;
+  margin: 0;
+  height: 48px;
+  position: relative;
+  border-radius: 5px 0 0 0;
+}
+ul#ow_fnav2 li {
+  display: inline-block;
+  width: 40px;
+  background-size: 40px;
+}
+#ow_fnav2 li > div {
+  height: 33px;
+}
+#ow_fnav2 li a {
+  width: 40px;
+  background-size: 40px;
+  display: block;
+  height: 40px; /* 24 nov 2023 33px;*/
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 186px;
+  background-position: center;
+}
+/* G & E tracker */
+#ow_fnav2 li a#ow_fnav2_a_firstone {
+  right: 120px;
+}
+/* HOME */
+#ow_fnav2 li a[href*="DOB96LR7"],
+#ow_fnav2 li a[href*="home.html"] {
+  right: 0px;
+}
+/* SEARCH */
+#ow_fnav2 li a[href*="DOBC9JWN"] {
+  right: 40px;
+}
+/* SETTINGS */
+#ow_fnav2 li a[href*="DOBL5DHB"] {
+  right: 80px;
+}
+/* FAVOURITES */
+#ow_fnav2 li a[href*="DOBC9JWV"] {
+  right: 120px;
+}
+ul.master-nav,
+ul.master-nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.sobc-home .mainContentInner ul {
+  display: block;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sobc-home .mainContentInner ul li {
+  margin-bottom: 20px;
+}
+ul.master-nav li {
+  width: 100%;
+}
+ul.master-nav li.lvl-1 {
+  /* amended 18oct2023  border-style: solid; */
+  /* amended 18oct2023  border-color: #01509f; */
+  /* amended 18oct2023 border-width: 1px 0 0 0; */
+  /* amended 18oct2023 border-width:  margin-bottom: 0; */
+}
+.removed18oct2023 .sobc-home .mainContentInner ul li a {
+  color: #ffffff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  display: block;
+  padding-top: 80px;
+  background-repeat: no-repeat;
+  margin: 20px auto;
+  position: relative;
+  padding: 0 30px 0 47px; /*  12px 0 0 47px;   */
+  margin: 0 20px 0 20px;
+  text-align: left;
+  height: 42px; /*30px; */
+  width: calc(100% - 117px); /*  calc(100% - 87px);  */
+  background-size: 30px 30px;
+  background-position: center left;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+.removed18oct2023 .sobc-home .mainContentInner ul li a .homeLinkText {
+  color: #ffffff;
+  letter-spacing: -0.5px;
+}
+/*
+ home page nav icons
+*/
+/*SoBC */
+@media only screen and (max-height: 768px) and (min-width: 768px) {
+  ul.master-nav li a {
+    background-image: none !important;
+  }
+
+  [class="18oct2023"] ul.master-nav li a .homeLinkText {
+    position: static !important;
+  }
+}
+@media only screen and (min-height: 769px) and (max-height: 920px) and (min-width: 768px) {
+  .sobc-home .mainContentInner ul.master-nav li.lvl-1 a {
+    background-size: 50px 50px !important;
+  }
+}
+.removed18oct2023 ul.master-nav li.nav-policies a .homeLinkText {
+  color: #00b0eb;
+}
+.removed18oct2023 ul.master-nav li.nav-howtospeakup a .homeLinkText {
+  color: #afca0b;
+}
+.removed18oct2023 ul.master-nav li.nav-hotline-numbers a .homeLinkText {
+  color: #afca0b;
+}
+.removed18oct2023 ul.master-nav li.nav-want2disclose a .homeLinkText {
+  color: #ffbb00;
+}
+.removed18oct2023 .sobc-home .mainContentInner ul li a:after {
+  content: "";
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  background-repeat: no-repeat;
+}
+/*
+PAGE HEADER 
+*/
+div.pageTitle {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  color: #ffffff;
+  padding: 0;
+  position: relative;
+}
+.pageTitle.gradient-lb {
+  background-color: #3b4d9c;
+}
+/*
+
+ GENERAL PAGE CONTENT
+*/
+#bodyContent {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0; /* 90px; 22 nov 2023 */
+  margin-bottom: 54.25px;
+  padding: 0 0 30px 0;
+  z-index: 1;
+  min-height: calc(100vh - 54.25px); /* calc(100vh - 144.25px); */
+  background-color: #ffffff;
+}
+.pageTitle h3 {
+  max-width: 1200px;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 16px;
+  padding-right: 68px; /* allow for favourites icon */
+  font-size: 1.1em;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  display: inline-block;
+}
+.pageTitle .ptBookmark {
+  display: none;
+}
+.js .pageTitle .ptBookmark {
+  display: block;
+  height: 36px;
+  width: 36px;
+  background-repeat: no-repeat;
+  background-size: 36px 36px;
+  position: absolute;
+  bottom: 22px;
+  right: 14px;
+  cursor: pointer;
+}
+.mainContentInner {
+  max-width: 1200px;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sobc-home .mainContentInner {
+  padding: 0 0 4px 0;
+}
+body.sobc-standard .obj {
+  /*padding-left: 20px; */ /* 30 for desktop */
+  /*padding-right: 20px;*/
+}
+.sobc-standard .sectionIntro {
+  padding-left: 20px; /* 30 for desktop */
+  padding-right: 20px;
+  /*margin-top:40px;  Rev1 */
+}
+.sobc-standard .sectionIntro h4 {
+  margin: 10px 0 10px 0;
+}
+.sobc-standard .sectionContent {
+  margin-top: 20px;
+  padding-left: 20px; /* 30 for desktop */
+  padding-right: 20px;
+}
+h4 {
+  font-size: 1.125em;
+  line-height: 1em;
+  letter-spacing: -0.2px;
+  display: inline-block;
+  padding-right: 0; /* Rev1 30px; */
+}
+.pageRTL h4 {
+  padding-left: 30px;
+  padding-right: 0;
+}
+.sectionHeader.accordionHeader h4 {
+  padding-right: 30px;
+}
+.pageRTL .sectionHeader.accordionHeader h4 {
+  padding-right: 40px;
+}
+h5 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 0.875em;
+  line-height: 1.429em; /* 1.28571em; amended 18 oct 2023 */
+  letter-spacing: -0.2px;
+}
+h6 {
+  color: #0e2b63;
+  font-size: 0.625em;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: -0.2px;
+}
+.spacer-vertical-16 {
+  height: 16px;
+}
+.desktopOnly {
+  display: none;
+}
+/*
+ BREADCRUMB
+*/
+.bc_nobreadcrumb {
+  display: none;
+}
+/*
+ PAGE BANNER
+*/
+.pageBanner .pBMobileBanner {
+  width: 100%;
+  height: 0;
+  padding-bottom: calc(100% * 400 / 720);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.pageBanner .pBText {
+  /*height:66px;*/
+  padding: 12px 0;
+}
+.pageBanner .pBTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.3em;
+}
+.pageBanner .pBTitle .pBTitleText {
+  max-width: calc(100% - 36px);
+}
+.pageBanner .pBTitleText h3 {
+  display: inline-block;
+  font-size: 30px; /* Rev1 1.69em; */ /*1.875em;*/
+  line-height: 32px; /* Rev1  0.9em; */
+  letter-spacing: -1px; /* Rev1 -1.5px; */
+  font-weight: 700;
+  margin: 0;
+  padding-right: 10px;
+}
+.section-Policy-selection-page .pageBanner .pBText h3 {
+  line-height: 1.4em;
+}
+.pageBanner .pBDesktopBanner {
+  display: none;
+}
+.pageBanner .pBBookmark {
+  height: 36px;
+  width: 36px;
+  margin-top: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+.sectionIntro .desktopTitle h3 {
+  font-size: 1.875em;
+  line-height: 0.97em;
+  letter-spacing: -1.5px;
+  margin-top: 0;
+  display: none;
+}
+.ipBannerText h3 {
+  font-size: 2em;
+  margin-bottom: 16px;
+}
+/*
+ ACCORDIONS / SECTION HEADER
+*/
+.qlWrapper {
+  max-width: 1200px;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  /* margin-bottom:30px; Rev1  */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.qlWrapper .qlTitle {
+  font-size: 1.125em;
+  line-height: 1.22222em;
+  letter-spacing: -0.2px;
+  margin-bottom: 10px;
+}
+.qlWrapper ul.ql {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.qlWrapper ul.ql li {
+  display: block;
+  position: relative;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  font-size: 0.875em;
+  line-height: 2.14285em;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
+.qlWrapper ul.ql li .qlText {
+  padding-right: 20px;
+}
+.qlWrapper ul.ql li .qlText::after {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 11px;
+  height: 16px;
+}
+a.link.inline-internal {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+a.link.inline-external,
+a.link.inline-mail {
+  color: #0e2b63;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  position: relative;
+  padding-right: 0; /*20px;*/
+}
+a.link.inline-external i.icon-newwindow {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 18px;
+  height: 18px;
+  display: none; /*inline-block;*/
+  /*position:absolute;*/
+  /*right:0;*/
+  /*top:-1px;*/
+}
+.sectionHeader + ul {
+  margin: 0;
+}
+.sectionHeader .sHBar {
+  display: none;
+}
+.js .accordionHeader {
+  cursor: pointer;
+}
+.accordionContainer {
+  border-style: solid;
+  border-width: 6px 0 0 0; /* 28 nov 2023 */
+  position: relative;
+}
+.accordionContainer.last {
+  position: relative;
+  padding-bottom: 30px;
+}
+.accordionContainer.last::after {
+  display: none !important;
+}
+.accordionContainer.last::after {
+  content: " ";
+  position: absolute;
+  height: 10px;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+/*.accordionBody ul*/
+.mainContentInner ul,
+.section-intro ul {
+  padding-left: 16px;
+  padding-right: 0;
+}
+/*.pageRTL .accordionBody ul*/
+.pageRTL .mainContentInner ul,
+.pageRTL .section-intro ul {
+  padding-left: 0;
+  padding-right: 16px;
+}
+.accordionHeader {
+  position: relative;
+  padding-right: 0; /*30px;*/
+}
+.sectionHeader.intro h4 {
+  font-size: 1.125em;
+  line-height: 1.334em; /* 1.22222em; amended 18 oct 2023 */
+  letter-spacing: -0.2px;
+}
+.js .accordionHeader::after {
+  content: "+";
+  position: absolute;
+  top: calc(50% - 13px);
+  right: 0;
+  height: 27px;
+  width: 27px;
+  font-size: 48px;
+  line-height: 27px;
+  transition: all 0.5s ease;
+}
+.js .accordionHeader.clicked::after {
+  transform: rotate(45deg);
+}
+.js .accordionBody {
+  display: none;
+  /* height: 0; */
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+.js .accordionBody.open {
+  height: auto;
+}
+.sectionHeader.pullquote .sHBar {
+  width: 100px;
+  height: 10px;
+  margin-bottom: 10px;
+}
+.sectionHeader h4 {
+  margin-top: 0;
+  margin-bottom: 0; /* Rev1 */
+  margin-top: 32px;
+  line-height: 1.25em;
+}
+.sectionHeader.intro h4 {
+  /* Rev1 */
+  margin-bottom: 16px;
+}
+.sectionHeader.accordionHeader h4 {
+  /* Rev1 */
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.sectionHeader.pullquote h4 {
+  font-size: 1.375em;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin-bottom: 16px; /* Rev1 */
+}
+.accordionBody h5,
+.accordionBody p {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+.sectionHeader.sHPQI .pqiImage,
+.sectionHeader.sHPQI .pqiImage img {
+  /* pull quote image above text */
+  width: 40px;
+  height: 42px;
+  display: block;
+}
+.sectionHeader.sHPQI h4 {
+  /* less gap to text than standard sectionHeader */
+  margin-top: 10px;
+  font-size: 1.375em;
+  line-height: 1.5em;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+/* EXPANDABLE LANGUAGE BLOCKS - HEADER BY FLAG AND TITLE */
+.exp-language-block {
+  position: relative;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: #000000; /* 23 nov 2023 #01509f;*/
+  border-width: 1px 0 0 0; /* 23 nov 2023 10px 0 0 0; */
+  padding-bottom: 10px;
+}
+.exp-language-block.lastLB {
+  border-width: 1px 0 1px 0; /* 23 nov 2023 10px 0 10px 0;*/
+}
+.exp-language-block .lbHeader::before {
+  content: " ";
+  background-size: cover;
+  background-position: top left;
+  height: 34px;
+  width: 53px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.exp-language-block .lbHeader::after {
+  content: " ";
+  background-size: cover;
+  position: absolute;
+  color: #01509f;
+  top: 4px;
+  right: 0;
+  height: 27px;
+  width: 27px;
+  font-size: 48px;
+  line-height: 27px;
+  transition: all 0.5s ease;
+  font-weight: normal;
+}
+.exp-language-block.open .lbHeader::after {
+  transform: rotate(45deg);
+}
+.exp-language-block .lbHeader {
+  line-height: 34px;
+  font-weight: 700;
+  padding-left: 68px;
+  padding-right: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.exp-language-block .lbBody {
+  display: none;
+  padding-top: 16px;
+}
+/* SECTION COLOUR SCHEMES */
+.bold {
+  font-weight: 700;
+}
+/* for generic highlights */
+.color-red {
+  color: red;
+}
+.color-mid-blue {
+  color: #004f9f;
+}
+.color-light-green {
+  color: #afca0b;
+}
+.color-pink {
+  color: #e72582;
+}
+.color-yellow {
+  color: #ffbb00;
+}
+.color-cyan {
+  color: #00b1eb;
+}
+.color-dark-green {
+  color: #50af47;
+}
+.color-orange {
+  color: #ef7d00;
+}
+.color-dark-blue {
+  color: #0e2b63;
+}
+.background-color-mid-blue {
+  background-color: #004f9f;
+}
+.background-color-light-green {
+  background-color: #afca0b;
+}
+.background-color-pink {
+  background-color: #e72582;
+}
+.background-color-yellow {
+  background-color: #ffbb00;
+}
+.background-color-cyan {
+  background-color: #00b1eb;
+}
+.background-color-dark-green {
+  background-color: #50af47;
+}
+.background-color-orange {
+  background-color: #ef7d00;
+}
+.background-color-dark-blue {
+  background-color: #0e2b63;
+}
+.sectionHeader.intro h4 {
+  color: #0e2b63;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 400; /* 15 nov 2023 */
+}
+.section-Main-generic .accordionContainer,
+.section-Main-generic .qlWrapper ul.ql li,
+.section-Main-generic ul.list-bordered li,
+.section-Main-generic .THphraseGlossary,
+.section-Main-generic .THwordGlossary,
+.section-Main-generic-multi-column .accordionContainer,
+.section-Main-generic-multi-column .qlWrapper ul.ql li,
+.section-Main-generic-multi-column ul.list-bordered li,
+.section-Main-generic-multi-column .THphraseGlossary,
+.section-Main-generic-multi-column .THwordGlossary {
+  border-color: #0e2b63;
+}
+.section-Main-generic .pageBanner .pBTitleText,
+.section-Main-generic .sectionIntro .desktopTitle h3,
+.section-Main-generic h4,
+.section-Policies-Introduction h5,
+.section-Main-generic .qlWrapper .qlTitle,
+.section-Policies-Introduction .qlWrapper ul.ql li .qlText,
+.section-Main-generic .accordionHeader::after,
+.section-Main-generic a.link,
+.section-Main-generic #glossaryPop .fixedHeader .pageTitleCopy,
+.section-Main-generic-multi-column .pageBanner .pBTitleText,
+.section-Main-generic-multi-column .sectionIntro .desktopTitle h3,
+.section-Main-generic-multi-column h4,
+.section-Policies-Introduction h5,
+.section-Main-generic-multi-column .qlWrapper .qlTitle,
+.section-Policies-Introduction .qlWrapper ul.ql li .qlText,
+.section-Main-generic-multi-column .accordionHeader::after,
+.section-Main-generic-multi-column a.link,
+.section-Main-generic-multi-column #glossaryPop .fixedHeader .pageTitleCopy {
+  color: #0e2b63;
+}
+.section-Main-generic .sectionHeader.pullquote .sHBar,
+.section-Main-generic .obj.reversed,
+.section-Main-generic-multi-column .sectionHeader.pullquote .sHBar,
+.section-Main-generic-multi-column .obj.reversed,
+.section-Main-generic-multi-column .accordionContainer.last::after {
+  background-color: #0e2b63;
+  display: block;
+}
+/* .section-Policies-Introduction */
+.section-Policies-Introduction .accordionContainer,
+.section-Policies-Introduction .qlWrapper ul.ql li,
+.section-Policies-Introduction ul.list-bordered li,
+.section-Policies-Introduction .THphraseGlossary,
+.section-Policies-Introduction .THwordGlossary {
+  border-color: #0e2b63;
+}
+.section-Policies-Introduction .pageBanner .pBTitleText,
+.section-Policies-Introduction .sectionIntro .desktopTitle h3,
+.section-Policies-Introduction h4,
+.section-Policies-Introduction h5,
+.section-Policies-Introduction .qlWrapper .qlTitle,
+.section-Policies-Introduction .qlWrapper ul.ql li .qlText,
+.section-Policies-Introduction .accordionHeader::after,
+/* .section-Policies-Introduction a, */
+.section-Policies-Introduction .sectionIntro li,
+.section-Policies-Introduction #glossaryPop .fixedHeader .pageTitleCopy {
+  color: #0e2b63; /*#004f9f;*/
+}
+.rolmT[data-class="section-Policies-Introduction"],
+.section-Policies-Introduction .sectionHeader.pullquote .sHBar,
+.section-Policies-Introduction .obj.reversed,
+.section-Policies-Introduction .accordionContainer.last::after {
+  background-color: #004f9f;
+  display: block;
+}
+/* .section-Policies-Personal-and-business-integrity */
+/* .section-Main-I-want-to-disclose-a-conflict */
+.section-Policies-Personal-and-business-integrity .accordionContainer,
+.section-Policies-Personal-and-business-integrity .qlWrapper ul.ql li,
+.section-Policies-Personal-and-business-integrity ul.list-bordered li,
+.section-Policies-Personal-and-business-integrity .THphraseGlossary,
+.section-Policies-Personal-and-business-integrity .THwordGlossary,
+.section-Main-I-want-to-disclose-a-conflict .accordionContainer,
+.section-Main-I-want-to-disclose-a-conflict .qlWrapper ul.ql li,
+.section-Main-I-want-to-disclose-a-conflict ul.list-bordered li,
+.section-Main-I-want-to-disclose-a-conflict .THphraseGlossary,
+.section-Main-I-want-to-disclose-a-conflict .THwordGlossary {
+  border-color: #ffbb00;
+}
+.section-Policies-Marketing-and-trade .accordionContainer,
+.section-Policies-Marketing-and-trade .qlWrapper ul.ql li,
+.section-Policies-Marketing-and-trade ul.list-bordered li,
+.section-Policies-Marketing-and-trade .THphraseGlossary,
+.section-Policies-Marketing-and-trade .THwordGlossary {
+  border-color: #ef7d00;
+}
+.section-Policies-Personal-and-business-integrity .pageBanner .pBTitleText,
+.section-Policies-Personal-and-business-integrity
+  .sectionIntro
+  .desktopTitle
+  h3,
+.section-Policies-Personal-and-business-integrity h4,
+.section-Policies-Personal-and-business-integrity h5,
+.section-Policies-Personal-and-business-integrity .qlWrapper .qlTitle,
+.section-Policies-Personal-and-business-integrity .qlWrapper ul.ql li .qlText,
+.section-Policies-Personal-and-business-integrity .accordionHeader::after,
+.section-Policies-Personal-and-business-integrity a,
+.section-Policies-Personal-and-business-integrity .sectionIntro li,
+.section-Policies-Personal-and-business-integrity
+  #glossaryPop
+  .fixedHeader
+  .pageTitleCopy,
+.section-Main-I-want-to-disclose-a-conflict .pageBanner .pBTitleText,
+.section-Main-I-want-to-disclose-a-conflict .sectionIntro .desktopTitle h3,
+.section-Main-I-want-to-disclose-a-conflict h4,
+.section-Main-I-want-to-disclose-a-conflict h5,
+.section-Main-I-want-to-disclose-a-conflict .qlWrapper .qlTitle,
+.section-Main-I-want-to-disclose-a-conflict .qlWrapper ul.ql li .qlText,
+.section-Main-I-want-to-disclose-a-conflict .accordionHeader::after,
+.section-Main-I-want-to-disclose-a-conflict a,
+.section-Main-I-want-to-disclose-a-conflict .sectionIntro li,
+.section-Main-I-want-to-disclose-a-conflict#glossaryPop
+  .fixedHeader
+  .pageTitleCopy,
+.section-Policies-Personal-and-business-integrity .tOButtonMessage::before,
+.section-Policies-Personal-and-business-integrity .tOCaption,
+.section-Policies-Personal-and-business-integrity .tOBtnCaption {
+  color: #ffbb00 !important;
+}
+.section-Policies-Marketing-and-trade .pageBanner .pBTitleText,
+.section-Policies-Marketing-and-trade .sectionIntro .desktopTitle h3,
+.section-Policies-Marketing-and-trade h4,
+.section-Policies-Marketing-and-trade h5,
+.section-Policies-Marketing-and-trade .qlWrapper .qlTitle,
+.section-Policies-Marketing-and-trade .qlWrapper ul.ql li .qlText,
+.section-Policies-Marketing-and-trade .accordionHeader::after,
+.section-Policies-Marketing-and-trade a,
+/*.section-Policies-Marketing-and-trade .sectionIntro li,*/
+.section-Policies-Marketing-and-trade #glossaryPop .fixedHeader .pageTitleCopy {
+  color: #ef7d00 !important;
+}
+.rolmT[data-class="section-Policies-Personal-and-business-integrity"],
+.section-Policies-Personal-and-business-integrity
+  .sectionHeader.pullquote
+  .sHBar,
+.section-Policies-Personal-and-business-integrity .obj.reversed,
+.section-Policies-Personal-and-business-integrity
+  .accordionContainer.last::after,
+.section-Main-I-want-to-disclose-a-conflict .sectionHeader.pullquote .sHBar,
+.section-Main-I-want-to-disclose-a-conflict .obj.reversed,
+.section-Main-I-want-to-disclose-a-conflict .accordionContainer.last::after {
+  background-color: #ffbb00;
+  display: block;
+}
+.section-Policies-Marketing-and-trade .sectionHeader.pullquote .sHBar,
+.section-Policies-Marketing-and-trade .obj.reversed,
+.section-Policies-Marketing-and-trade .accordionContainer.last::after {
+  background-color: #ef7d00;
+  display: block;
+}
+/* .section-Policies-Speak-up */
+/* .section-Main-How-to-Speak-Up */
+/* SCoC : compliance */
+.section-Policies-Speak-up .accordionContainer,
+.section-Policies-Speak-up .qlWrapper ul.ql li,
+.section-Policies-Speak-up ul.list-bordered li,
+.section-Policies-Speak-up .THphraseGlossary,
+.section-Policies-Speak-up .THwordGlossary,
+.section-Main-How-to-Speak-Up .accordionContainer,
+.section-Main-How-to-Speak-Up .qlWrapper ul.ql li,
+.section-Main-How-to-Speak-Up ul.list-bordered li,
+.section-Main-How-to-Speak-Up .THphraseGlossary,
+.section-Main-How-to-Speak-Up .THwordGlossary,
+.section-Policies-Compliance .accordionContainer,
+.section-Policies-Compliance .qlWrapper ul.ql li,
+.section-Policies-Compliance ul.list-bordered li,
+.section-Policies-Compliance .THphraseGlossary,
+.section-Policies-Compliance .THwordGlossary {
+  border-color: #afca0b;
+}
+.section-Policies-Speak-up .pageBanner .pBTitleText,
+.section-Policies-Speak-up .sectionIntro .desktopTitle h3,
+.section-Policies-Speak-up h4,
+.section-Policies-Speak-up h5,
+.section-Policies-Speak-up .qlWrapper .qlTitle, 
+.section-Policies-Speak-up .qlWrapper ul.ql li .qlText,
+.section-Policies-Speak-up .accordionHeader::after,
+.section-Policies-Speak-up a,
+.section-Policies-Speak-up .sectionIntro li,
+.section-Policies-Speak-up #glossaryPop .fixedHeader .pageTitleCopy,
+.section-Main-How-to-Speak-Up .pageBanner .pBTitleText,
+.section-Main-How-to-Speak-Up .sectionIntro .desktopTitle h3,
+.section-Main-How-to-Speak-Up h4,
+.section-Main-How-to-Speak-Up h5,
+.section-Main-How-to-Speak-Up .qlWrapper .qlTitle, 
+.section-Main-How-to-Speak-Up .qlWrapper ul.ql li .qlText,
+.section-Main-How-to-Speak-Up .accordionHeader::after,
+.section-Main-How-to-Speak-Up a,
+.section-Main-How-to-Speak-Up .sectionIntro li,
+.section-Main-How-to-Speak-Up #glossaryPop .fixedHeader .pageTitleCopy,
+.section-Policies-Compliance .pageBanner .pBTitleText,
+.section-Policies-Compliance .sectionIntro .desktopTitle h3,
+.section-Policies-Compliance h4,
+.section-Policies-Compliance h5,
+.section-Policies-Compliance .qlWrapper .qlTitle, 
+.section-Policies-Compliance .qlWrapper ul.ql li .qlText,
+.section-Policies-Compliance .accordionHeader::after,
+.section-Policies-Compliance a,
+/*.section-Policies-Compliance .sectionIntro li,*/
+.section-Policies-Compliance #glossaryPop .fixedHeader .pageTitleCopy,
+.section-Policies-Speak-up .tOButtonMessage::before,
+.section-Policies-Speak-up .tOCaption,
+.section-Policies-Speak-up .tOBtnCaption {
+  color: #afca0b !important;
+}
+.rolmT[data-class="section-Policies-Speak-up"],
+.section-Policies-Speak-up .sectionHeader.pullquote .sHBar,
+.section-Policies-Speak-up .obj.reversed,
+.section-Policies-Speak-up .accordionContainer.last::after,
+.section-Main-How-to-Speak-Up .sectionHeader.pullquote .sHBar,
+.section-Main-How-to-Speak-Up .obj.reversed,
+.section-Main-How-to-Speak-Up .accordionContainer.last::after,
+.section-Policies-Compliance .sectionHeader.pullquote .sHBar,
+.section-Policies-Compliance .obj.reversed,
+.section-Policies-Compliance .accordionContainer.last::after {
+  background-color: #afca0b;
+  display: block;
+}
+.section-Policies-Social-and-environment .accordionContainer,
+.section-Policies-Social-and-environment .qlWrapper ul.ql li,
+.section-Policies-Social-and-environment ul.list-bordered li,
+.section-Policies-Social-and-environment .THphraseGlossary,
+.section-Policies-Social-and-environment .THwordGlossary,
+.section-Policies-Human-rights .accordionContainer,
+.section-Policies-Human-rights .qlWrapper ul.ql li,
+.section-Policies-Human-rights ul.list-bordered li,
+.section-Policies-Human-rights .THphraseGlossary,
+.section-Policies-Human-rights .THwordGlossary {
+  border-color: #e72582;
+}
+.section-Policies-Social-and-environment .pageBanner .pBTitleText,
+.section-Policies-Social-and-environment .sectionIntro .desktopTitle h3,
+.section-Policies-Social-and-environment h4,
+.section-Policies-Social-and-environment h5,
+.section-Policies-Social-and-environment .qlWrapper .qlTitle,
+.section-Policies-Social-and-environment .qlWrapper ul.ql li .qlText,
+.section-Policies-Social-and-environment .accordionHeader::after,
+.section-Policies-Social-and-environment a,
+.section-Policies-Social-and-environment .sectionIntro li,
+.section-Policies-Social-and-environment
+  #glossaryPop
+  .fixedHeader
+  .pageTitleCopy,
+.section-Policies-Human-rights .pageBanner .pBTitleText,
+.section-Policies-Human-rights .sectionIntro .desktopTitle h3,
+.section-Policies-Human-rights h4,
+.section-Policies-Human-rights h5,
+.section-Policies-Human-rights .qlWrapper .qlTitle,
+.section-Policies-Human-rights .qlWrapper ul.ql li .qlText,
+.section-Policies-Human-rights .accordionHeader::after,
+.section-Policies-Human-rights a,
+.section-Policies-Human-rights .sectionIntro li,
+.section-Policies-Human-rights #glossaryPop .fixedHeader .pageTitleCopy,
+.section-Policies-Social-and-environment .tOButtonMessage::before,
+.section-Policies-Social-and-environment .tOCaption,
+.section-Policies-Social-and-environment .tOBtnCaption {
+  color: #e72582;
+}
+.rolmT[data-class="section-Policies-Social-and-environment"],
+.section-Policies-Social-and-environment .sectionHeader.pullquote .sHBar,
+.section-Policies-Social-and-environment .obj.reversed,
+.section-Policies-Social-and-environment .accordionContainer.last::after,
+.section-Policies-Human-rights .sectionHeader.pullquote .sHBar,
+.section-Policies-Human-rights .obj.reversed,
+.section-Policies-Human-rights .accordionContainer.last::after {
+  background-color: #e72582;
+  display: block;
+}
+.section-Policies-External-stakeholders .accordionContainer,
+.section-Policies-External-stakeholders .qlWrapper ul.ql li,
+.section-Policies-External-stakeholders ul.list-bordered li,
+.section-Policies-External-stakeholders .THphraseGlossary,
+.section-Policies-External-stakeholders .THwordGlossary {
+  border-color: #00b1eb;
+}
+.section-Policies-External-stakeholders .pageBanner .pBTitleText,
+.section-Policies-External-stakeholders .sectionIntro .desktopTitle h3,
+.section-Policies-External-stakeholders h4, .section-Policies-External-stakeholders h5,
+.section-Policies-External-stakeholders .qlWrapper .qlTitle,
+.section-Policies-External-stakeholders .qlWrapper ul.ql li .qlText,
+.section-Policies-External-stakeholders .accordionHeader::after,
+.section-Policies-External-stakeholders a,
+/*.section-Policies-External-stakeholders .sectionIntro li,*/
+.section-Policies-External-stakeholders .tOButtonMessage::before,
+.section-Policies-External-stakeholders .tOCaption,
+.section-Policies-External-stakeholders .tOBtnCaption,
+.section-Policies-External-stakeholders #glossaryPop .fixedHeader .pageTitleCopy {
+  color: #00b1eb;
+}
+.rolmT[data-class="section-Policies-External-stakeholders"],
+.section-Policies-External-stakeholders .sectionHeader.pullquote .sHBar,
+.section-Policies-External-stakeholders .obj.reversed,
+.section-Policies-External-stakeholders .accordionContainer.last::after {
+  background-color: #00b1eb;
+  display: block;
+}
+.section-Policies-Corporate-assets-and-financial-integrity .accordionContainer,
+.section-Policies-Corporate-assets-and-financial-integrity .qlWrapper ul.ql li,
+.section-Policies-Corporate-assets-and-financial-integrity ul.list-bordered li,
+.section-Policies-Corporate-assets-and-financial-integrity .THphraseGlossary,
+.section-Policies-Corporate-assets-and-financial-integrity .THwordGlossary,
+.section-Policies-Environmental-sustainability .accordionContainer,
+.section-Policies-Environmental-sustainability .qlWrapper ul.ql li,
+.section-Policies-Environmental-sustainability ul.list-bordered li,
+.section-Policies-Environmental-sustainability .THphraseGlossary,
+.section-Policies-Environmental-sustainability .THwordGlossary {
+  border-color: #50af47;
+}
+.section-Policies-Corporate-assets-and-financial-integrity .pageBanner .pBTitleText,
+.section-Policies-Corporate-assets-and-financial-integrity .sectionIntro .desktopTitle h3,
+.section-Policies-Corporate-assets-and-financial-integrity h4,
+.section-Policies-Corporate-assets-and-financial-integrity h5,
+.section-Policies-Corporate-assets-and-financial-integrity .qlWrapper .qlTitle,
+.section-Policies-Corporate-assets-and-financial-integrity .qlWrapper ul.ql li .qlText,
+.section-Policies-Corporate-assets-and-financial-integrity .accordionHeader::after,
+.section-Policies-Corporate-assets-and-financial-integrity a,
+/*.section-Policies-Corporate-assets-and-financial-integrity .sectionIntro li,*/
+.section-Policies-Corporate-assets-and-financial-integrity #glossaryPop .fixedHeader .pageTitleCopy,
+.section-Policies-Environmental-sustainability .pageBanner .pBTitleText,
+.section-Policies-Environmental-sustainability .sectionIntro .desktopTitle h3,
+.section-Policies-Environmental-sustainability h4,
+.section-Policies-Environmental-sustainability h5,
+.section-Policies-Environmental-sustainability .qlWrapper .qlTitle,
+.section-Policies-Environmental-sustainability .qlWrapper ul.ql li .qlText,
+.section-Policies-Environmental-sustainability .accordionHeader::after,
+.section-Policies-Environmental-sustainability a,
+.section-Policies-Environmental-sustainability .sectionIntro li,
+.section-Policies-Environmental-sustainability #glossaryPop .fixedHeader .pageTitleCopy,
+.section-Policies-Corporate-assets-and-financial-integrity .tOButtonMessage::before,
+.section-Policies-Corporate-assets-and-financial-integrity .tOCaption,
+.section-Policies-Corporate-assets-and-financial-integrity .tOBtnCaption {
+  color: #50af47;
+}
+.rolmT[data-class="section-Policies-Corporate-assets-and-financial-integrity"],
+.section-Policies-Corporate-assets-and-financial-integrity
+  .sectionHeader.pullquote
+  .sHBar,
+.section-Policies-Corporate-assets-and-financial-integrity .obj.reversed,
+.section-Policies-Corporate-assets-and-financial-integrity
+  .accordionContainer.last::after,
+.section-Policies-Environmental-sustainability .sectionHeader.pullquote .sHBar,
+.section-Policies-Environmental-sustainability .obj.reversed,
+.section-Policies-Environmental-sustainability .accordionContainer.last::after {
+  background-color: #50af47;
+  display: block;
+}
+.section-Policies-National-and-international-trade .accordionContainer,
+.section-Policies-National-and-international-trade .qlWrapper ul.ql li,
+.section-Policies-National-and-international-trade ul.list-bordered li {
+  border-color: #ef7d00;
+}
+.section-Policies-Business-integrity .accordionContainer,
+.section-Policies-Business-integrity .qlWrapper ul.ql li,
+.section-Policies-Business-integrity ul.list-bordered li,
+.section-Policies-Business-integrity .THphraseGlossary,
+.section-Policies-Business-integrity .THwordGlossary {
+  border-color: #ffbb00;
+}
+.section-Policies-National-and-international-trade .pageBanner .pBTitleText,
+.section-Policies-National-and-international-trade
+  .sectionIntro
+  .desktopTitle
+  h3,
+.section-Policies-National-and-international-trade h4,
+.section-Policies-National-and-international-trade h5,
+.section-Policies-National-and-international-trade .qlWrapper .qlTitle,
+.section-Policies-National-and-international-trade .qlWrapper ul.ql li .qlText,
+.section-Policies-National-and-international-trade .accordionHeader::after,
+.section-Policies-National-and-international-trade a,
+.section-Policies-National-and-international-trade .sectionIntro li,
+.section-Policies-National-and-international-trade
+  #glossaryPop
+  .fixedHeader
+  .pageTitleCopy,
+.section-Policies-National-and-international-trade .tOButtonMessage::before,
+.section-Policies-National-and-international-trade .tOCaption,
+.section-Policies-National-and-international-trade .tOBtnCaption {
+  color: #ef7d00;
+}
+.section-Policies-Business-integrity .pageBanner .pBTitleText,
+.section-Policies-Business-integrity .sectionIntro .desktopTitle h3,
+.section-Policies-Business-integrity h4,
+.section-Policies-Business-integrity h5,
+.section-Policies-Business-integrity .qlWrapper .qlTitle,
+.section-Policies-Business-integrity .qlWrapper ul.ql li .qlText,
+.section-Policies-Business-integrity .accordionHeader::after,
+.section-Policies-Business-integrity a,
+.section-Policies-Business-integrity .sectionIntro li,
+.section-Policies-Business-integrity #glossaryPop .fixedHeader .pageTitleCopy {
+  color: #ffbb00;
+}
+.rolmT[data-class="section-Policies-National-and-international-trade"],
+.section-Policies-National-and-international-trade
+  .sectionHeader.pullquote
+  .sHBar,
+.section-Policies-National-and-international-trade .obj.reversed,
+.section-Policies-National-and-international-trade
+  .accordionContainer.last::after {
+  background-color: #ef7d00;
+  display: block;
+}
+.section-Policies-Business-integrity .sectionHeader.pullquote .sHBar,
+.section-Policies-Business-integrity .obj.reversed,
+.section-Policies-Business-integrity .accordionContainer.last::after {
+  background-color: #ffbb00;
+  display: block;
+}
+/* specials */
+.sectionHeader.pullquote.nobar .sHBar {
+  display: none;
+}
+.section-Policies-Introduction .definitions {
+  background-color: #0e2b63;
+  padding: 10px 20px 20px 20px;
+}
+.section-Policies-Introduction .definitions h3,
+.section-Policies-Introduction .definitions p,
+.section-Policies-Introduction .definitions a {
+  color: #ffffff;
+}
+.section-Policies-Introduction .definitions a {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+/* Special for Policy selection page */
+.section-Policy-selection-page .pageBanner .pBText {
+  /* amended 19 oct 2023 background-color:#01509f; */
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+.sobc-standard.section-Policy-selection-page .sectionContent {
+  margin-top: 0;
+}
+.section-Policy-selection-page .pageBanner .pBText .pBTitle {
+  width: 100%;
+}
+.section-Policy-selection-page .pageBanner .pBText h3 {
+  font-size: 1em;
+  font-weight: 700;
+}
+.section-Policy-selection-page .pageBanner .pBText .pstPrefix {
+  font-weight: 700;
+}
+.section-Policy-selection-page .pageBanner .pBText .pstText {
+  font-weight: 400;
+}
+.section-Policy-selection-page .pageBanner .pBText h3 div {
+  color: #ffffff;
+}
+.obj.reversed {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.obj.reversed .sectionHeader h4,
+.obj.reversed h5,
+.obj.reversed li,
+.obj.reversed p {
+  color: #ffffff !important;
+}
+/*
+ FOOTER
+ 
+*/
+footer {
+  height: 54.25px;
+  color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+.footerPre {
+  display: none;
+}
+footer .footerInner {
+  height: 100%;
+  position: relative;
+  background-color: #0e2b63;
+  /* full width header footer 22 Nov 2023 max-width: 1200px;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+.footerInner::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 11.25px;
+  width: 100%;
+  display: block;
+  border-style: solid;
+  border-color: #01509f;
+  border-width: 0;
+  background: linear-gradient(
+      90deg,
+      #0e2b63 30.4785%,
+      rgba(0, 0, 0, 0) 30.4785%
+    ),
+    linear-gradient(90deg, #004f9f 52.15788%, rgba(0, 0, 0, 0) 52.15788%),
+    linear-gradient(90deg, #00b1eb 64.72807%, rgba(0, 0, 0, 0) 64.72807%),
+    linear-gradient(90deg, #ef7d00 73.22551%, rgba(0, 0, 0, 0) 73.22551%),
+    linear-gradient(90deg, #ffbb00 79.62792%, rgba(0, 0, 0, 0) 79.62792%),
+    linear-gradient(90deg, #50af47 86.69237%, rgba(0, 0, 0, 0) 86.69237%),
+    linear-gradient(90deg, #afca0b 92.0305%, rgba(0, 0, 0, 0) 92.0305%),
+    linear-gradient(90deg, #5a328a 97.0083%, rgba(0, 0, 0, 0) 97.0083%),
+    linear-gradient(90deg, #e72582 100%, rgba(0, 0, 0, 0) 100%);
+}
+footer .footerInner .footer1 {
+  display: none;
+}
+footer .footerText {
+  height: 43px;
+  padding-top: 0;
+  border-style: solid;
+  border-color: #01509f;
+  border-width: 1px 0 0 0;
+  margin-bottom: 0;
+  color: #01509f;
+}
+footer .footer2,
+footer .footer2 #ow_fnav4_container {
+  height: 100%;
+}
+footer ul#ow_fnav4 {
+  position: relative;
+  margin: 0;
+  padding: 0 160px 0 10px;
+  list-style-type: none;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+}
+footer ul#ow_fnav4 li.ow_fnav_li {
+  margin: 0;
+  height: calc(100% - 1px);
+  border-style: solid;
+  border-color: #01509f;
+  border-width: 0; /* 24 nov 2023 0 1px 0 0;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 16px;
+}
+footer ul#ow_fnav4 div.ow_fnav_div {
+  /*height:100%;*/
+}
+footer ul#ow_fnav4 a.ow_fnav_a {
+  display: block;
+  text-align: center;
+  height: 100%;
+  line-height: 12px;
+  width: 100%;
+  color: #ffffff; /*22 nov 2023 #ffbb00;*/
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  letter-spacing: -0.5px;
+}
+footer ul#ow_fnav4 li.ow_fnav_li_1 {
+  /* flex:0 0 30.7%;*/
+}
+footer ul#ow_fnav4 li.ow_fnav_li_4,
+footer ul#ow_fnav4 li.ow_fnav_li_5,
+footer ul#ow_fnav4 li.ow_fnav_li_6,
+footer ul#ow_fnav4 li.ow_fnav_li_7 {
+  width: 40px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0 0 0 1px;
+  margin-right: 0;
+  position: absolute;
+  top: 0;
+}
+footer ul#ow_fnav4 li.ow_fnav_li_4 {
+  right: 120px;
+}
+footer ul#ow_fnav4 li.ow_fnav_li_5 {
+  right: 80px;
+}
+footer ul#ow_fnav4 li.ow_fnav_li_6 {
+  right: 40px;
+}
+footer ul#ow_fnav4 li.ow_fnav_li_7 {
+  right: 0px;
+}
+footer ul#ow_fnav4 li {
+  /*width:calc( (( 100% - ( 43px + 43px + 43px + 42px)  ) / 2 ) - 1px);*/
+}
+footer ul#ow_fnav4 li.ow_fnav_li_4,
+footer ul#ow_fnav4 li.ow_fnav_li_5,
+footer ul#ow_fnav4 li.ow_fnav_li_6,
+footer ul#ow_fnav4 li.ow_fnav_li_7 {
+  /*width:42px;*/
+}
+footer ul#ow_fnav4 li.ow_fnav_li_7 {
+  /*border-width:0 0 0 0;*/
+}
+footer ul#ow_fnav4 li.ow_fnav_li_4 a {
+  background-size: 18px 22px;
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 18px;
+  font-size: 0;
+}
+footer ul#ow_fnav4 li.ow_fnav_li_5 a {
+  background-size: 18px 22px;
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 18px;
+}
+footer ul#ow_fnav4 li.ow_fnav_li_6 a {
+  background-size: 18px 22px;
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 18px;
+}
+footer ul#ow_fnav4 li.ow_fnav_li_7 a {
+  background-size: 18px 22px;
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 18px;
+}
+/*
+HOME PAGE 
+*/
+.sobc-home #bodyContent {
+  padding: 0;
+  margin-bottom: 54.25px;
+  min-height: calc(100vh - 144.25px);
+  background-color: #ffffff; /* amended 18oct2023 #0e2b63; */
+  color: #ffffff;
+  max-width: none;
+  max-width: initial;
+}
+.sobc-home .policyMainNav {
+  background-color: #faba00;
+  margin-top: -90px;
+}
+.sobc-home .policyMainNav img,
+.sobc-home .mainContentWrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.sobc-home .pageTitle h3 {
+  padding-right: 15px;
+}
+.sobc-home .bc_showbreadcrumb,
+.js .sobc-home .pageTitle .ptBookmark {
+  display: none;
+}
+.sobc-home .pageTitle.gradient-lb {
+  background-color: #01509f;
+}
+/* 
+ VIDEO LIGHTBOX
+*/
+.vl-poster {
+  position: relative;
+}
+.vl-poster::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: 51px 52px;
+  background-position: center;
+}
+.transcript {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 700;
+}
+.transcript::before {
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 43px;
+  height: 47.3px;
+  display: block;
+  margin-right: 12px;
+}
+#vlLightBox {
+  position: fixed;
+  top: 5%;
+  bottom: 5%;
+  right: 5%;
+  left: 5%;
+  z-index: 10;
+  display: none;
+}
+#vlLightBox.active {
+  display: block;
+}
+#vlLightBox .lightboxInner {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  background-color: #ffffff;
+}
+#vlLightBox .lightboxClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  color: #0e2b63;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 4px;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 3px 3px 0 0;
+}
+#vlLightBox .title {
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  height: 60px;
+  padding: 0 10px 0 10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 16px;
+}
+#vlLightBox video {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*
+ MISC eg pop ups
+*/
+.onlyApp {
+  display: none;
+}
+html.app .onlyApp {
+  display: inline;
+  display: initial;
+}
+html.app .onlySite {
+  display: none;
+}
+#confirmLinkFormWrapper {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: space-around;
+}
+#confirmLinkFormWrapper .cLink {
+  width: 80%;
+  max-width: 440px;
+  background-color: #ffffff;
+  /*border-radius: 10px;*/
+  padding: 16px;
+}
+#confirmLinkFormWrapper .cLTitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+#confirmLinkFormWrapper .cLText {
+  margin-top: 12px;
+  font-size: 15px;
+}
+#confirmLinkFormWrapper .cLActions {
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+#confirmLinkFormWrapper .cLActions .cLinkCancel,
+#confirmLinkFormWrapper .cLActions .cLinkProceed {
+  cursor: pointer;
+}
+/*
+              GLOSSARY HIGHLIGHTING AND POP-UP
+*/
+/* highlighted search text */
+.THphrase {
+  background-color: lightgreen;
+  color: #0e2b63; /* June 2021 replaces #333333; */
+}
+.THword {
+  background-color: yellow;
+  color: #0e2b63; /* June 2021 replaces #333333; */
+}
+.THphrase .THword {
+  background-color: lightgreen;
+  color: #0e2b63; /* June 2021 replaces #333333; */
+}
+/* highlighted glossary text */
+.THphraseGlossary,
+.THwordGlossary {
+  border-width: 0 0 2px 0;
+  border-color: red;
+  border-style: dotted;
+  /*display:inline-block;*/
+  margin-top: 1px;
+  cursor: pointer;
+}
+.pageTitleCopy .THphraseGlossary,
+.pageTitleCopy.THwordGlossary {
+  border: none;
+  cursor: default;
+}
+#glossaryPop {
+  position: fixed;
+  top: 40px; /* Rev3 0; */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*	height:calc(100% - 50px);*/
+  /*	width:calc(100% - 50px);*/
+  height: calc(100% - 40px); /* Rev3 100%; */
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0; /* Rev3 auto; */
+  margin-bottom: 0; /* Rev3 auto; */
+  z-index: 10;
+  background-color: #ffffff;
+  display: none;
+}
+body.glossary-active {
+  overflow: hidden;
+}
+body.glossary-active #glossaryPop {
+  display: block;
+}
+#glossaryPop .fixedCodex {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 11.25px;
+  width: 100%;
+  display: block;
+  background: linear-gradient(
+      90deg,
+      #0e2b63 30.4785%,
+      rgba(0, 0, 0, 0) 30.4785%
+    ),
+    linear-gradient(90deg, #004f9f 52.15788%, rgba(0, 0, 0, 0) 52.15788%),
+    linear-gradient(90deg, #00b1eb 64.72807%, rgba(0, 0, 0, 0) 64.72807%),
+    linear-gradient(90deg, #ef7d00 73.22551%, rgba(0, 0, 0, 0) 73.22551%),
+    linear-gradient(90deg, #ffbb00 79.62792%, rgba(0, 0, 0, 0) 79.62792%),
+    linear-gradient(90deg, #50af47 86.69237%, rgba(0, 0, 0, 0) 86.69237%),
+    linear-gradient(90deg, #afca0b 92.0305%, rgba(0, 0, 0, 0) 92.0305%),
+    linear-gradient(90deg, #5a328a 97.0083%, rgba(0, 0, 0, 0) 97.0083%),
+    linear-gradient(90deg, #e72582 100%, rgba(0, 0, 0, 0) 100%);
+}
+#glossaryPop .fixedCodex.Top {
+  top: 0;
+}
+#glossaryPop .fixedCodex.Bottom {
+  bottom: 0;
+}
+#glossaryPop .fixedHeader {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  border-width: 0 0 2px 0;
+  border-color: #0f2c64;
+  border-style: solid;
+  height: 120px; /* 23 nov 2023 140px;*/
+  color: #0e2b63;
+}
+#glossaryPop .fixedHeader .pageTitleCopy {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 120px;
+  font-weight: 700;
+}
+#glossaryPop .fixedHeader .gTitle {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.8em;
+  position: absolute;
+  bottom: 6px;
+  left: 20px;
+}
+.settings-language-ARABIC #glossaryPop .fixedHeader .gTitle,
+.settings-language-URDU #glossaryPop .fixedHeader .gTitle {
+  left: auto;
+  right: 20px;
+}
+#glossaryPop .fixedHeader .gClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 48px;
+  width: 118px;
+  background-repeat: no-repeat;
+  background-size: 48px;
+  background-position: top right;
+  font-weight: 700;
+  line-height: 3.2em;
+  cursor: pointer;
+}
+/* .settings-language-ENGLISH #glossaryPop .gClose:before {
+  content: "CLOSE";
+} */
+#glossaryPopItems {
+  overflow-y: auto;
+  height: calc(100% - 151.25px);
+  margin-top: 140px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+#glossaryPopItems ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#glossaryPopItems li {
+  display: block;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+}
+#glossaryPopItems li .giTerm {
+  font-size: 1.5em;
+  font-weight: 700;
+  padding: 1.2em 0;
+}
+#glossaryPop li.active-term .giTerm {
+  color: #0e2b63;
+  background-color: #00b1eb;
+  margin: 25px 0;
+  padding: 2px;
+}
+@media only screen and (min-width: 720px) {
+  #glossaryPop {
+    max-width: 500px;
+    max-height: 750px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+/* variations on basic tags */
+/* UL / OL / LI */
+ul.no-bullet {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  list-style-type: none;
+  padding: 0;
+}
+ul.no-bullet li.cross {
+  color: #0e2b63;
+  font-weight: 400;
+}
+ul.no-bullet li.cross.text-red {
+  color: #d0011b;
+}
+li.tick,
+li.cross {
+  padding-left: 30px;
+  position: relative;
+  margin: 22px 0;
+}
+li.tick::before,
+li.cross::before {
+  content: " ";
+  width: 18px;
+  height: 18px;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*
+POSSIBLY REMOVE THESE ELEMENTS - NO LONGER REQUIRED?
+*/
+#statusBar {
+  display: none;
+}
+body.frozen {
+  overflow-y: hidden;
+}
+#mobileNavContainer {
+  display: none;
+}
+/* footer page up / down */
+#pageUp,
+#pageDown {
+  display: none;
+}
+/* HOME PAGE MENUS SoBC AND SUPPLIER CODE */
+li.hp-menu-nav {
+  position: relative;
+  margin-bottom: 24px;
+}
+li.hp-menu-nav img {
+  display: block;
+}
+li.hp-menu-nav .mntImage {
+  display: none;
+}
+li.hp-menu-nav .menu-nav-text {
+  height: 98px;
+  background-color: #0e2b63;
+  padding: 16px;
+}
+@media screen and (max-width: 1070px) {
+li.hp-menu-nav .menu-nav-text {
+    height: 140px
+}
+  }
+li.hp-menu-nav .menu-nav-text .mntTitle {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+}
+li.hp-menu-nav a .menu-nav-text .mntLink .homeLinkText {
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  padding-right: 14px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffbb00;
+  letter-spacing: 0;
+}
+li.hp-menu-nav a .menu-nav-text .mntLink .homeLinkText::after {
+  position: absolute;
+  content: ">";
+  right: 0;
+  top: 1px;
+  color: #ffffff;
+  color: #ffbb00;
+}
+.policyMainNav {
+  margin-bottom: 40px;
+  position: relative;
+}
+.policyMainNav .pmnTextWrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  padding: 20px;
+}
+.policyMainNav .pmnTextWrapper::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 11.25px;
+  width: 100%;
+  display: block;
+  border-style: solid;
+  border-color: #01509f;
+  border-width: 1px 0 0 0;
+  background: linear-gradient(
+      90deg,
+      #0e2b63 30.4785%,
+      rgba(0, 0, 0, 0) 30.4785%
+    ),
+    linear-gradient(90deg, #004f9f 52.15788%, rgba(0, 0, 0, 0) 52.15788%),
+    linear-gradient(90deg, #00b1eb 64.72807%, rgba(0, 0, 0, 0) 64.72807%),
+    linear-gradient(90deg, #ef7d00 73.22551%, rgba(0, 0, 0, 0) 73.22551%),
+    linear-gradient(90deg, #ffbb00 79.62792%, rgba(0, 0, 0, 0) 79.62792%),
+    linear-gradient(90deg, #50af47 86.69237%, rgba(0, 0, 0, 0) 86.69237%),
+    linear-gradient(90deg, #afca0b 92.0305%, rgba(0, 0, 0, 0) 92.0305%),
+    linear-gradient(90deg, #5a328a 97.0083%, rgba(0, 0, 0, 0) 97.0083%),
+    linear-gradient(90deg, #e72582 100%, rgba(0, 0, 0, 0) 100%);
+}
+.policyMainNav .pmnTextWrapper .pmnTitle {
+  font-size: 26px;
+  line-height: 28px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+.policyMainNav .pmnTextWrapper .pmnText {
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin: 12px 0 12px 0;
+}
+.policyMainNav .pmnTextWrapper .pmnButton {
+  display: inline-block;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+  cursor: pointer;
+  width: 120px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
+}
+.policyMainNav .pmnTextWrapper .pmnButton span {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.policyMainNav .pmnTextWrapper .pmnButton:active {
+  margin: 1px 0 0 1px;
+}
+.sectionIntro .desktopTitle {
+  display: none;
+}
+.sectionHeader.contact h4 {
+  position: relative;
+  padding-top: 37px;
+  padding-bottom: 7px;
+}
+.sectionHeader.contact h4::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -32px;
+  height: 52px;
+  width: 52px;
+  background-size: cover;
+}
+.language-rtl .sectionHeader.contact h4::before {
+  right: 0;
+}
+body.page-glossary .pageBanner .pBTitleText,
+body.page-glossary .giTerm,
+body.page-glossary h4 {
+  color: #004f9f;
+}
+body.page-glossary .sectionIntro {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media only screen and (min-width: 720px) {
+  body.page-glossary .sectionIntro {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+ul.who-to-talk-to,
+ul.contacting-the-group {
+  font-weight: 700;
+}
+.sectionHeader.WhatAreSanctions,
+.sectionHeader.WhatAreSanctions ~ .accordionBody {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.sectionHeader.WhatAreSanctions h4,
+.sectionHeader.WhatAreSanctions ~ .accordionBody h5 {
+  color: #0e2b63;
+}
+.sectionHeader.WhatAreSanctions h4 {
+  /*text-align:right;*/
+  position: relative;
+  padding-left: 64px;
+}
+.sectionHeader.WhatAreSanctions h4::before {
+  content: " ";
+  height: 64px;
+  width: 54px;
+  background-size: cover;
+  position: absolute;
+  top: -1px;
+  left: 0;
+}
+sup {
+  line-height: 0;
+}
+/*
+   CSS FOR BROWSER WIDTH >= 720px 
+*/
+.xxxForceUpdate {
+  display: none;
+}
+@media only screen and (min-width: 1400px) {
+  header .headerInner {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .desktopOnly {
+    display: block;
+  }
+
+  .mobileOnly {
+    display: none;
+  }
+
+  /*
+   HOME PAGE MAIN MENU
+*/
+
+  .removed18oct2023 .sobc-home header {
+    height: 256px;
+  }
+
+  .sobc-home header .headerInner {
+    /*padding-left:100px;*/
+    /*padding-right:100px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*padding: 0;*/
+  }
+
+  .sobc-home .policyMainNav img {
+    margin-right: 0;
+  }
+
+  .sobc-home header img#logoMob {
+    display: none;
+  }
+  .sobc-home header img#logoDsk {
+    display: block;
+  }
+
+  #ow_fnav2_container {
+    height: 48px;
+    /* amended 19 oct 2023 bottom:0; */
+    background-color: #ffffff;
+  }
+
+  .sobc-home #ow_fnav2_container {
+    background-color: transparent;
+  }
+
+  #ow_fnav2 {
+    height: 48px;
+    padding: 0;
+  }
+
+  header #logo {
+    /* Rev1 */
+    /* Rev2 margin-top:24px;*/
+  }
+
+  .sobc-home header #logo {
+    margin-left: 20px;
+  }
+
+  .sobc-home .mainContentInner {
+    /*min-height:calc(100vh - (256px + 80px + 54.25px + 36px)); /* calc(100vh - (256px + 80px + 54.25px)); */
+    padding-bottom: 60px;
+  }
+
+  .sobc-home .mainContentInner ul.master-nav {
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between; /* flex-start;*/
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 40px 40px;
+  }
+
+  .sobc-home .pageTitle {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .sobc-home .pageTitle h3 {
+    padding-left: 0;
+  }
+
+  .sobc-home .obj20 {
+    height: 100%;
+  }
+
+  .sobc-home .mainContentInner ul {
+    gap: 20px;
+  }
+
+  .sobc-home .mainContentInner ul.master-nav li.lvl-1 {
+    width: calc(
+      (100% - 80px) / 3
+    ); /* 18 oct 2023 calc((100% - 80px) / 3);*/ /*calc((100% - 80px) / 5);*/
+    /* amended 18 oct 2023 height:calc(((100vh - (256px + 80px + 54.25px + 36px)) / 3) - 20px); / * calc(((100vh - (256px + 80px + 54.25px)) / 2) - 20px); * / */
+    margin-bottom: 0;
+  }
+
+  .removed18oct2023 .sobc-home #bodyContent {
+    background-color: #01509f;
+    margin-top: 256px;
+    min-height: calc(100vh - 310.25px);
+  }
+
+  .removed18oct2023 .sobc-home .mainContentInner ul.master-nav li.lvl-1 a {
+    height: 100%;
+    background-color: #0e2b63;
+    background-size: 100px 100px;
+    background-position: center 23.06%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .removed18oct2023
+    .sobc-home
+    .mainContentInner
+    ul.master-nav
+    li.lvl-1
+    a
+    .homeLinkText {
+    position: absolute;
+    top: 70%; /*60%;*/
+    width: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .removed18oct2023
+    .sobc-home
+    .mainContentInner
+    ul.master-nav
+    li.lvl-1
+    a::after {
+    display: none;
+  }
+
+  /*
+    DESKTOP PADDING ETC
+*/
+
+  .sectionHeader.accordionHeader h4 {
+    margin-bottom: 0; /* Rev1 */
+  }
+
+  .language-rtl {
+    direction: rtl;
+  }
+
+  .pageRTL .sectionHeader.accordionHeader h4 {
+    padding-right: 0;
+  }
+
+  .sobc-standard .sectionIntro {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .sobc-standard .sectionContent {
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  /*
+   PAGE BANNER
+*/
+
+  .pageBanner .pBDesktopBanner {
+    width: calc(100% - 80px);
+    height: 0;
+    padding-bottom: calc(100% * 600 / 1878);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pageBanner .pBMobileBanner {
+    display: none;
+  }
+
+  .pageBanner .pBTitle {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .pageBanner .pBTitleText h3 {
+    /*font-weight:400;*/
+  }
+
+  .sectionIntro .desktopTitle h3 {
+    display: block;
+  }
+
+  .section-Policies-Contents .pageBanner .pBText {
+    /*background-color:#0e2b63;*/
+  }
+
+  .section-Policies-Personal_and_business_integrity .pageBanner .pBText {
+    background-color: #ffbb00;
+  }
+
+  .pageBanner .pBTitleText::before {
+    font-size: 1.69em; /*1.875em;*/
+    font-weight: 700;
+    display: none; /* 20 oct 2023 */
+  }
+
+  .pageBanner .pBTitleText h3 {
+    /* amended 18 oct 2023 	color:#ffffff; */
+  }
+
+  .pBTitleText::before {
+    /* amended 18 oct 2023     color: #ffffff; */
+  }
+
+  /* PAGE BANNER SECTION PREFIX - ENGLISH / RAI */
+  .pageLanguage-ENGLISH.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before,
+  .pageLanguage-RAI.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "Introduction - ";
+  }
+  .pageLanguage-ENGLISH.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before,
+  .pageLanguage-RAI.section-Policies-Speak-up .pageBanner .pBTitleText::before {
+    content: "Speak Up - ";
+  }
+  .pageLanguage-ENGLISH.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before,
+  .pageLanguage-RAI.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Social and Environment - ";
+  }
+  .pageLanguage-ENGLISH.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before,
+  .pageLanguage-RAI.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Personal and Business Integrity - ";
+  }
+  .pageLanguage-ENGLISH.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before,
+  .pageLanguage-RAI.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "External Stakeholders - ";
+  }
+  .pageLanguage-ENGLISH.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before,
+  .pageLanguage-RAI.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Corporate Assets and Financial Integrity - ";
+  }
+  .pageLanguage-ENGLISH.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before,
+  .pageLanguage-RAI.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "National and International Trade - ";
+  }
+
+  /* PAGE BANNER SECTION PREFIX - FRENCH  */
+  .pageLanguage-FRENCH.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "Introduction - ";
+  }
+  .pageLanguage-FRENCH.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "Signalement - ";
+  }
+  .pageLanguage-FRENCH.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Aspects sociaux et environnementaux - ";
+  }
+  .pageLanguage-FRENCH.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "IntÃ©gritÃ© personnelle et professionnelle - ";
+  }
+  .pageLanguage-FRENCH.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "Parties prenantes externes - ";
+  }
+  .pageLanguage-FRENCH.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Actifs de lâ€™entreprise et intÃ©gritÃ© financiÃ¨re - ";
+  }
+  .pageLanguage-FRENCH.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "Commerce national et international - ";
+  }
+
+  /* PAGE BANNER SECTION PREFIX - PORTUGUESE  */
+  .pageLanguage-PORTUGUESE.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "IntroduÃ§Ã£o - ";
+  }
+  .pageLanguage-PORTUGUESE.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "Speak Up - ";
+  }
+  .pageLanguage-PORTUGUESE.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Social e ambiental - ";
+  }
+  .pageLanguage-PORTUGUESE.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Integridade pessoal e empresarial - ";
+  }
+  .pageLanguage-PORTUGUESE.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "Partes interessadas externas - ";
+  }
+  .pageLanguage-PORTUGUESE.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ativos corporativos e integridade financeira - ";
+  }
+  .pageLanguage-PORTUGUESE.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "ComÃ©rcio nacional e internacional - ";
+  }
+
+  /* PAGE BANNER SECTION PREFIX - SPANISH  */
+  .pageLanguage-SPANISH.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "IntroducciÃ³n - ";
+  }
+  .pageLanguage-SPANISH.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "Speak Up - ";
+  }
+  .pageLanguage-SPANISH.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Social y medio ambiente - ";
+  }
+  .pageLanguage-SPANISH.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Integridad personal y empresarial - ";
+  }
+  .pageLanguage-SPANISH.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "Partes interesadas externas - ";
+  }
+  .pageLanguage-SPANISH.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Activos corporativos e integridad financiera - ";
+  }
+  .pageLanguage-SPANISH.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "Comercio nacional e internacional - ";
+  }
+
+  /* PAGE BANNER SECTION PREFIX - BAHASA  */
+  .pageLanguage-BAHASA.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "Pendahuluan - ";
+  }
+  .pageLanguage-BAHASA.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "Speak Up - ";
+  }
+  .pageLanguage-BAHASA.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Sosial dan lingkungan - ";
+  }
+  .pageLanguage-BAHASA.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Integritas pribadi dan bisnis - ";
+  }
+  .pageLanguage-BAHASA.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "Pemangku kepentingan eksternal - ";
+  }
+  .pageLanguage-BAHASA.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Aset perusahaan dan integritas finansial - ";
+  }
+  .pageLanguage-BAHASA.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "Perdagangan nasional dan internasional - ";
+  }
+  /* PAGE BANNER SECTION PREFIX - RUSSIAN  */
+  .pageLanguage-RUSSIAN.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ð’Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ - ";
+  }
+  .pageLanguage-RUSSIAN.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ð˜Ð½Ñ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð¾ Ð½Ð°Ñ€ÑƒÑˆÐµÐ½Ð¸ÑÑ… - ";
+  }
+  .pageLanguage-RUSSIAN.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ð¡Ð¾Ñ†Ð¸Ð°Ð»ÑŒÐ½Ð°Ñ ÑÑ„ÐµÑ€Ð° Ð¸ Ð¾ÐºÑ€ÑƒÐ¶Ð°ÑŽÑ‰Ð°Ñ ÑÑ€ÐµÐ´Ð° - ";
+  }
+  .pageLanguage-RUSSIAN.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ð›Ð¸Ñ‡Ð½Ð°Ñ Ð¸ Ð´ÐµÐ»Ð¾Ð²Ð°Ñ Ð¿Ð¾Ñ€ÑÐ´Ð¾Ñ‡Ð½Ð¾ÑÑ‚ÑŒ - ";
+  }
+  .pageLanguage-RUSSIAN.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ð’Ð½ÐµÑˆÐ½Ð¸Ðµ Ð·Ð°Ð¸Ð½Ñ‚ÐµÑ€ÐµÑÐ¾Ð²Ð°Ð½Ð½Ñ‹Ðµ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹ - ";
+  }
+  .pageLanguage-RUSSIAN.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "ÐšÐ¾Ñ€Ð¿Ð¾Ñ€Ð°Ñ‚Ð¸Ð²Ð½Ñ‹Ðµ Ð°ÐºÑ‚Ð¸Ð²Ñ‹ Ð¸ Ñ„Ð¸Ð½Ð°Ð½ÑÐ¾Ð²Ð°Ñ Ð´Ð¾Ð±Ñ€Ð¾ÑÐ¾Ð²ÐµÑÑ‚Ð½Ð¾ÑÑ‚ÑŒ - ";
+  }
+  .pageLanguage-RUSSIAN.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "ÐÐ°Ñ†Ð¸Ð¾Ð½Ð°Ð»ÑŒÐ½Ð°Ñ Ð¸ Ð¼ÐµÐ¶Ð´ÑƒÐ½Ð°Ñ€Ð¾Ð´Ð½Ð°Ñ Ñ‚Ð¾Ñ€Ð³Ð¾Ð²Ð»Ñ - ";
+  }
+  /* PAGE BANNER SECTION PREFIX - BENGALI  */
+  .pageLanguage-BENGALI.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "à¦­à§‚à¦®à¦¿à¦•à¦¾ - ";
+  }
+  .pageLanguage-BENGALI.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "Speak Up - ";
+  }
+  .pageLanguage-BENGALI.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "à¦¸à¦¾à¦®à¦¾à¦œà¦¿à¦•à¦¸à¦®à¦¾à¦œ à¦“ à¦ªà¦°à¦¿à¦¬à§‡à¦¶ - ";
+  }
+  .pageLanguage-BENGALI.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "à¦¬à§à¦¯à¦•à§à¦¤à¦¿à¦—à¦¤ à¦“ à¦¬à§à¦¯à¦¬à¦¸à¦¾à§Ÿà¦¿à¦• à¦¸à¦¤à¦¤à¦¾ - ";
+  }
+  .pageLanguage-BENGALI.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "à¦¬à¦¹à¦¿à¦ƒà¦¸à§à¦¥à¦¬à¦¹à¦¿à¦°à¦¾à¦—à¦¤ à¦¸à§à¦Ÿà§‡à¦•à¦¹à§‹à¦²à§à¦¡à¦¾à¦°à¦°à¦¾à¦¸à§à¦Ÿà§‡à¦•à¦¹à§‹à¦²à§à¦¡à¦¾à¦°à¦—à¦£ - ";
+  }
+  .pageLanguage-BENGALI.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "à¦•à¦°à§à¦ªà§‹à¦°à§‡à¦Ÿ à¦¸à¦®à§à¦ªà¦¦ à¦“ à¦†à¦°à§à¦¥à¦¿à¦• à¦¸à¦¤à¦¤à¦¾ - ";
+  }
+  .pageLanguage-BENGALI.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "à¦œà¦¾à¦¤à§€à§Ÿ à¦“ à¦†à¦¨à§à¦¤à¦°à§à¦œà¦¾à¦¤à¦¿à¦• à¦¬à¦¾à¦£à¦¿à¦œà§à¦¯ - ";
+  }
+  /* PAGE BANNER SECTION PREFIX - GERMAN  */
+  .pageLanguage-GERMAN.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "EinfÃ¼hrung - ";
+  }
+  .pageLanguage-GERMAN.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "Speak Up - ";
+  }
+  .pageLanguage-GERMAN.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Soziales und Umwelt - ";
+  }
+  .pageLanguage-GERMAN.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "PersÃ¶nliche und geschÃ¤ftliche IntegritÃ¤t - ";
+  }
+  .pageLanguage-GERMAN.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "Externe Stakeholder - ";
+  }
+  .pageLanguage-GERMAN.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "UnternehmensvermÃ¶gen und finanzielle IntegritÃ¤t - ";
+  }
+  .pageLanguage-GERMAN.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "Nationaler und internationaler Handel - ";
+  }
+  /* PAGE BANNER SECTION PREFIX - POLISH  */
+  .pageLanguage-POLISH.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "WstÄ™p - ";
+  }
+  .pageLanguage-POLISH.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "ZgÅ‚aszanie nieprawidÅ‚owoÅ›ci (Speak Up) - ";
+  }
+  .pageLanguage-POLISH.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "SpoÅ‚eczeÅ„stwo i Å›rodowisko - ";
+  }
+  .pageLanguage-POLISH.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "UczciwoÅ›Ä‡ osobista i biznesowa - ";
+  }
+  .pageLanguage-POLISH.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "ZewnÄ™trzni interesariusze - ";
+  }
+  .pageLanguage-POLISH.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "MajÄ…tek spÃ³Å‚ki i uczciwoÅ›Ä‡ finansowa - ";
+  }
+  .pageLanguage-POLISH.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "Handel krajowy i miÄ™dzynarodowy - ";
+  }
+  /* PAGE BANNER SECTION PREFIX - ROMANIAN  */
+  .pageLanguage-ROMANIAN.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "Introducere - ";
+  }
+  .pageLanguage-ROMANIAN.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "Speak Up - ";
+  }
+  .pageLanguage-ROMANIAN.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Aspecte sociale È™i de mediu - ";
+  }
+  .pageLanguage-ROMANIAN.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Integritatea personalÄƒ È™i profesionalÄƒ - ";
+  }
+  .pageLanguage-ROMANIAN.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "Furnizori externi - ";
+  }
+  .pageLanguage-ROMANIAN.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Active corporative È™i integritate financiarÄƒ - ";
+  }
+  .pageLanguage-ROMANIAN.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "ComerÈ› naÈ›ional È™i internaÈ›ional - ";
+  }
+
+  /* PAGE BANNER SECTION PREFIX - URDU  */
+  .pageLanguage-URDU.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "ØªØ¹Ø§Ø±Ù - ";
+  }
+  .pageLanguage-URDU.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ø¢ÙˆØ§Ø² Ø§Ù¹Ú¾Ø§Ø¦ÛŒÚº - ";
+  }
+  .pageLanguage-URDU.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ø³Ù…Ø§Ø¬ Ø§ÙˆØ± Ù…Ø§Ø­ÙˆÙ„ - ";
+  }
+  .pageLanguage-URDU.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ø°Ø§ØªÛŒ Ø§ÙˆØ± Ú©Ø§Ø±ÙˆØ¨Ø§Ø±ÛŒ Ø³Ø§Ù„Ù…ÛŒØª - ";
+  }
+  .pageLanguage-URDU.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ø®Ø§Ø±Ø¬ÛŒ Ø§Ø³Ù¹ÛŒÚ© ÛÙˆÙ„ÚˆØ±Ø² - ";
+  }
+  .pageLanguage-URDU.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ú©Ø§Ø±Ù¾ÙˆØ±ÛŒÙ¹ Ø§Ø«Ø§Ø«Û’ Ø§ÙˆØ± Ù…Ø§Ù„ÛŒØ§ØªÛŒ Ø³Ø§Ù„Ù…ÛŒØª - ";
+  }
+  .pageLanguage-URDU.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ù‚ÙˆÙ…ÛŒ Ø§ÙˆØ± Ø¨ÛŒÙ† Ø§Ù„Ø§Ù‚ÙˆØ§Ù…ÛŒ ØªØ¬Ø§Ø±Øª - ";
+  }
+  /* PAGE BANNER SECTION PREFIX - JAPANESE  */
+  .pageLanguage-JAPANESE.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "ã¯ã˜ã‚ã« - ";
+  }
+  .pageLanguage-JAPANESE.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "ã‚¹ãƒ”ãƒ¼ã‚¯ã‚¢ãƒƒãƒ—ï¼ˆå†…éƒ¨é€šå ±ï¼‰ - ";
+  }
+  .pageLanguage-JAPANESE.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "ç¤¾ä¼šã¨ç’°å¢ƒ - ";
+  }
+  .pageLanguage-JAPANESE.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "å€‹äººã¨äº‹æ¥­ã®èª å®Ÿæ€§ - ";
+  }
+  .pageLanguage-JAPANESE.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "å¤–éƒ¨ã®åˆ©å®³é–¢ä¿‚è€… - ";
+  }
+  .pageLanguage-JAPANESE.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "ä¼æ¥­è³‡ç”£åŠã³è²¡å‹™ã®å¥å…¨æ€§ - ";
+  }
+  .pageLanguage-JAPANESE.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "å›½å†…åŠã³å›½éš›å–å¼• - ";
+  }
+  /* PAGE BANNER SECTION PREFIX - ARABIC  */
+  .pageLanguage-ARABIC.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ù…Ù‚Ø¯Ù…Ø© - ";
+  }
+  .pageLanguage-ARABIC.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ø­Ø±ÙŠØ© Ø§Ù„Ø¥Ø¨Ù„Ø§Øº - ";
+  }
+  .pageLanguage-ARABIC.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ø§Ù„Ø¬ÙˆØ§Ù†Ø¨ Ø§Ù„Ø§Ø¬ØªÙ…Ø§Ø¹ÙŠØ© ÙˆØ§Ù„Ø¨ÙŠØ¦ÙŠØ© - ";
+  }
+  .pageLanguage-ARABIC.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ø§Ù„Ù†Ø²Ø§Ù‡Ø© Ø§Ù„Ø´Ø®ØµÙŠØ© ÙˆØ§Ù„Ù†Ø²Ø§Ù‡Ø© ÙÙŠ Ø§Ù„Ø¹Ù…Ù„ - ";
+  }
+  .pageLanguage-ARABIC.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ø§Ù„Ø£Ø·Ø±Ø§Ù Ø§Ù„Ù…Ø¹Ù†ÙŠØ© Ø§Ù„Ø®Ø§Ø±Ø¬ÙŠØ© - ";
+  }
+  .pageLanguage-ARABIC.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ø£ØµÙˆÙ„ Ø§Ù„Ø´Ø±ÙƒØ© ÙˆØ§Ù„Ù†Ø²Ø§Ù‡Ø© Ø§Ù„Ù…Ø§Ù„ÙŠØ© - ";
+  }
+  .pageLanguage-ARABIC.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ø§Ù„ØªØ¬Ø§Ø±Ø© Ø§Ù„ÙˆØ·Ù†ÙŠØ© ÙˆØ§Ù„Ø¯ÙˆÙ„ÙŠØ© - ";
+  }
+  /* PAGE BANNER SECTION PREFIX - CHINESE  */
+  .pageLanguage-CHINESE.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "å°Žè¨€ - ";
+  }
+  .pageLanguage-CHINESE.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "èˆ‰å ± - ";
+  }
+  .pageLanguage-CHINESE.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "ç¤¾æœƒèˆ‡ç’°å¢ƒ - ";
+  }
+  .pageLanguage-CHINESE.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "å€‹äººèˆ‡å•†æ¥­èª ä¿¡ - ";
+  }
+  .pageLanguage-CHINESE.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "å¤–éƒ¨åˆ©å®³é—œä¿‚äºº - ";
+  }
+  .pageLanguage-CHINESE.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "å…¬å¸è³‡ç”¢èˆ‡è²¡å‹™å¥å…¨ - ";
+  }
+  .pageLanguage-CHINESE.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "åœ‹å…§èˆ‡åœ‹éš›è²¿æ˜“ - ";
+  }
+  /* PAGE BANNER SECTION PREFIX - KOREAN  */
+  .pageLanguage-KOREAN.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "ì†Œê°œ - ";
+  }
+  .pageLanguage-KOREAN.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "ë‚´ë¶€ê³ ë°œ - ";
+  }
+  .pageLanguage-KOREAN.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "ì‚¬íšŒ ë° í™˜ê²½ - ";
+  }
+  .pageLanguage-KOREAN.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "ê°œì¸ê³¼ íšŒì‚¬ì˜ ë„ë•ì„± - ";
+  }
+  .pageLanguage-KOREAN.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "ì™¸ë¶€ ì´í•´ê´€ê³„ìž - ";
+  }
+  .pageLanguage-KOREAN.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "ê¸°ì—… ìžì‚°ê³¼ ìž¬ë¬´ì  ê±´ì „ì„± - ";
+  }
+  .pageLanguage-KOREAN.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "êµ­ë‚´ ê±°ëž˜ì™€ êµ­ì œ ë¬´ì—­ - ";
+  }
+  /* PAGE BANNER SECTION PREFIX - TURKISH  */
+  .pageLanguage-TURKISH.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "GiriÅŸ - ";
+  }
+  .pageLanguage-TURKISH.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: "DÃ¼ÅŸÃ¼nceleri AÃ§Ä±kÃ§a Ä°fade Etme - ";
+  }
+  .pageLanguage-TURKISH.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Sosyal ve Ã§evre - ";
+  }
+  .pageLanguage-TURKISH.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "KiÅŸisel ve mesleki dÃ¼rÃ¼stlÃ¼k - ";
+  }
+  .pageLanguage-TURKISH.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "Harici paydaÅŸlar - ";
+  }
+  .pageLanguage-TURKISH.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "Åžirket varlÄ±klarÄ± ve finansal dÃ¼rÃ¼stlÃ¼k - ";
+  }
+  .pageLanguage-TURKISH.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ulusal ve uluslararasÄ± ticaret - ";
+  }
+
+  /* PAGE BANNER SECTION PREFIX - UKRAINIAN  */
+  .pageLanguage-UKRAINIAN.section-Policies-Introduction
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ð’ÑÑ‚ÑƒÐ¿ - ";
+  }
+  .pageLanguage-UKRAINIAN.section-Policies-Speak-up
+    .pageBanner
+    .pBTitleText::before {
+    content: 'Ð†Ð½Ñ–Ñ†Ñ–Ð°Ñ‚Ð¸Ð²Ð° "Speak Up/Ð¡ÐºÐ°Ð¶Ð¸" - ';
+  }
+  .pageLanguage-UKRAINIAN.section-Policies-Social-and-environment
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ð¡Ð¾Ñ†Ñ–Ð°Ð»ÑŒÐ½Ð° Ð²Ñ–Ð´Ð¿Ð¾Ð²Ñ–Ð´Ð°Ð»ÑŒÐ½Ñ–ÑÑ‚ÑŒ Ñ– Ð´Ð¾Ð²ÐºÑ–Ð»Ð»Ñ - ";
+  }
+  .pageLanguage-UKRAINIAN.section-Policies-Personal-and-business-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "ÐžÑÐ¾Ð±Ð¸ÑÑ‚Ð° Ñ– Ð¿Ñ€Ð¾Ñ„ÐµÑÑ–Ð¹Ð½Ð° ÐµÑ‚Ð¸ÐºÐ° - ";
+  }
+  .pageLanguage-UKRAINIAN.section-Policies-External-stakeholders
+    .pageBanner
+    .pBTitleText::before {
+    content: "Ð—Ð¾Ð²Ð½Ñ–ÑˆÐ½Ñ– ÑÑ‚ÐµÐ¹ÐºÑ…Ð¾Ð»Ð´ÐµÑ€Ð¸ - ";
+  }
+  .pageLanguage-UKRAINIAN.section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBTitleText::before {
+    content: "ÐœÐ°Ð¹Ð½Ð¾ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ñ–Ñ— Ñ– Ñ„Ñ–Ð½Ð°Ð½ÑÐ¾Ð²Ð° ÐµÑ‚Ð¸ÐºÐ° - ";
+  }
+  .pageLanguage-UKRAINIAN.section-Policies-National-and-international-trade
+    .pageBanner
+    .pBTitleText::before {
+    content: "ÐÐ°Ñ†Ñ–Ð¾Ð½Ð°Ð»ÑŒÐ½Ð° Ñ– Ð¼Ñ–Ð¶Ð½Ð°Ñ€Ð¾Ð´Ð½Ð° Ñ‚Ð¾Ñ€Ð³Ñ–Ð²Ð»Ñ - ";
+  }
+
+  .pageBanner .pBText {
+    margin-bottom: 8px; /* amended 18 oct 2023 40px;	 */
+  }
+
+  .pageBanner.pageBanner-NoMarginBottom .pBText {
+    margin-bottom: 0;
+  }
+
+  .pageBanner .pBDesktopBanner {
+    margin-bottom: 40px;
+  }
+
+  .sectionIntro .sectionHeader.intro h4 {
+    margin-top: 0;
+  }
+
+  .sectionIntro .sectionHeader h4 {
+    margin-top: 0; /* Rev1 */
+  }
+
+  .pageBanner .pBTitleText h3 {
+    /* amended 18 oct 2023 color:#ffffff!important; */
+  }
+
+  /* section background colours */
+
+  .section-Main-generic .pageBanner .pBText,
+  .section-Main-generic-multi-column .pageBanner .pBText {
+    background-color: #ffffff; /* amended 23 ocr 2023 #0e2b63; */
+  }
+
+  .section-Policies-Personal-and-business-integrity .pageBanner .pBText,
+  .section-Main-I-want-to-disclose-a-conflict .pageBanner .pBText,
+  .section-Policies-Marketing-and-trade .pageBanner .pBText {
+    background-color: #ffffff; /* amended 23 ocr 2023 #ffbb00; */
+  }
+
+  .section-Policies-Introduction .pageBanner .pBText {
+    background-color: #ffffff; /* amended 23 ocr 2023 #004f9f; */
+  }
+
+  .section-Policies-Speak-up .pageBanner .pBText,
+  .section-Main-How-to-Speak-Up .pageBanner .pBText,
+  .section-Policies-Compliance .pageBanner .pBText {
+    background-color: #ffffff; /* amended 23 ocr 2023 #afca0b; */
+  }
+
+  .section-Policies-Social-and-environment .pageBanner .pBText,
+  .section-Policies-Human-rights .pageBanner .pBText {
+    background-color: #ffffff; /* amended 23 ocr 2023 #e72582; */
+  }
+  .section-Policies-External-stakeholders .pageBanner .pBText {
+    background-color: #ffffff; /* amended 23 ocr 2023 #00b1eb; */
+  }
+
+  .section-Policies-Corporate-assets-and-financial-integrity
+    .pageBanner
+    .pBText,
+  .section-Policies-Environmental-sustainability .pageBanner .pBText {
+    background-color: #ffffff; /* amended 23 ocr 2023 #50af47; */
+  }
+
+  .section-Policies-National-and-international-trade .pageBanner .pBText,
+  .section-Policies-Business-integrity .pageBanner .pBText {
+    background-color: #ffffff; /* amended 23 ocr 2023 #ef7d00;*/
+  }
+
+  /* columns */
+  .sectionIntro {
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 60px;
+         column-gap: 60px;
+  }
+
+  .sectionIntro .obj35 {
+    page-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+         break-inside: avoid;
+  }
+
+  .section-Policies-Introduction .sectionContent,
+  .section-Policies-Speak-up .sectionContent,
+  .section-Policies-Personal-and-business-integrity .sectionContent,
+  .section-Policies-Social-and-environment .sectionContent,
+  .section-Policies-External-stakeholders .sectionContent,
+  .section-Policies-Corporate-assets-and-financial-integrity .sectionContent,
+  .section-Policies-National-and-international-trade .sectionContent,
+  .section-Policies-Compliance .sectionContent,
+  .section-Policies-Human-rights .sectionContent,
+  .section-Policies-Environmental-sustainability .sectionContent,
+  .section-Policies-Marketing-and-trade .sectionContent,
+  .section-Policies-Business-integrity .sectionContent,
+  .section-Main-I-want-to-disclose-a-conflict .sectionContent,
+  .section-Main-generic-multi-column .sectionContent {
+    -moz-column-count: 3;
+         column-count: 3;
+  }
+
+  .sectionContent .accordionContainer,
+  .sectionContent .obj {
+    -moz-column-break-inside: avoid;
+         break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* temp fix to avoid accordions potentially reflowing into different columns when expanding */
+  .accordionBody {
+    display: block !important;
+    height: auto !important;
+  }
+  .js .accordionHeader.clicked::after {
+    transform: rotate(0deg);
+  }
+
+  .js .accordionHeader::after {
+    display: none;
+  }
+
+  /* multiple columns*/
+  .columns-multiple {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .columns-multiple.cols-2 > .col-1 {
+    width: 350px;
+  }
+
+  .columns-multiple.cols-2 > .col-2 {
+    width: calc(100% - 350px);
+  }
+
+  /* Special for Policy selection page */
+
+  .section-Policy-selection-page .pageBanner .pBText h3 {
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+
+  /* no quick links */
+  .qlWrapper {
+    display: none;
+  }
+
+  footer {
+    position: relative;
+    height: auto;
+    height: initial;
+  }
+
+  footer .footerInner {
+    padding-bottom: 11.25px;
+  }
+
+  footer .navback {
+    display: none;
+  }
+
+  footer ul#ow_fnav4 a.ow_fnav_a {
+    /*font-size:1.2rem;*/
+  }
+
+  footer ul#ow_fnav4 {
+    padding: 0 40px;
+  }
+
+  footer ul#ow_fnav4 li.ow_fnav_li {
+    margin-right: 30px;
+  }
+
+  footer ul#ow_fnav4 li.ow_fnav_li_4,
+  footer ul#ow_fnav4 li.ow_fnav_li_5,
+  footer ul#ow_fnav4 li.ow_fnav_li_6,
+  footer ul#ow_fnav4 li.ow_fnav_li_7 {
+    margin-right: 0;
+  }
+
+  footer ul#ow_fnav4 li.ow_fnav_li_4 {
+    right: 160px;
+  }
+
+  footer ul#ow_fnav4 li.ow_fnav_li_5 {
+    right: 120px;
+  }
+
+  footer ul#ow_fnav4 li.ow_fnav_li_6 {
+    right: 80px;
+  }
+
+  footer ul#ow_fnav4 li.ow_fnav_li_7 {
+    border-width: 0 1px 0 1px;
+    right: 40px;
+  }
+
+  /* 
+   VIDEO LIGHTBOX
+*/
+
+  .vl-poster::after {
+    background-size: 102px 104px;
+  }
+
+  /* HOME PAGE MENUS SoBC AND SUPPLIER CODE */
+
+  li.hp-menu-nav {
+    margin-bottom: 0;
+  }
+
+  li.hp-menu-nav .mntImage {
+    display: block;
+  }
+
+  li.hp-menu-nav .menu-nav-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+  }
+  .policyMainNav .pmnTextWrapper {
+    position: absolute;
+    bottom: 40px;
+    left: 140px;
+    width: 370px;
+    min-height: 180px;
+  }
+}
+/* end of media query @media only screen and (min-width:900px) */
+@media only screen and (min-width: 900px) and (max-height: 768px) {
+  .sobc-home .mainContentInner ul.master-nav li.lvl-1 a {
+    background-size: 50px;
+    background-position: center 10px;
+  }
+}
+@media only screen and (min-width: 900px) and (max-height: 600px) {
+  .sobc-home .mainContentInner ul.master-nav li.lvl-1 a {
+    background-image: none;
+  }
+  .sobc-home .mainContentInner ul.master-nav li.lvl-1 a .homeLinkText {
+    top: 20%;
+  }
+}
+.footerInner::after {
+  border: none;
+}
+.footerText {
+  /* display: none; */
+}
+footer {
+  /* height: 11.25px; */
+}
+/* body footer .footerInner {
+  background-color: #ffffff;
+} */
+/* nav#resourceNav {
+  display: none;
+} */
+header #logo {
+  width: 100px;
+}
+header {
+  height: 70px;
+}
+#bodyContent {
+}
+.section-Policy-selection-page .pageBanner .pBText {
+  height: 70px;
+}
+.section-Policy-selection-page .languageSelect {
+  padding: 16px 16px 32px 16px;
+}
+@media only screen and (min-width: 768px) {
+  .section-Policy-selection-page .languageSelect {
+    padding: 16px;
+  }
+}
+.section-Policy-selection-page .languageSelect .lSTitle {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.section-Policy-selection-page .languageSelect .lSText {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+.section-Policy-selection-page .languageSelect a {
+  color: #ffffff;
+  display: block;
+  border: 1px solid #ffffff;
+  text-align: center;
+  border-radius: 24px;
+  padding: 8px 0;
+  /*position: absolute; */
+  /*bottom: 16px; */
+  /*width: calc(100% - 40px); */
+  width: 100%;
+}
+.psItem.psSOBC div.policyLink,
+.psItem.psSCOC div.policyLink {
+  display: none;
+}
+li.langButton {
+  cursor: pointer;
+}
+.sectionContent .obj {
+  display: none;
+}
+.sectionContent .obj23,
+.sectionContent .obj25 {
+  display: block;
+  width: 100%;
+  background-color: #0e2b63;
+  position: relative;
+  margin-bottom: 16px;
+}
+ul.langButtons {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  min-height: 12vh;
+  /*margin-bottom: 32px; */
+  margin-bottom: 10px;
+}
+li.langButton {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+ul.langButtons {
+  gap: 0.1143%;
+}
+li.langButton {
+  width: 12.4%;
+}
+@media only screen and (min-width: 1023px) {
+  ul.langButtons {
+    gap: 0.2%;
+  }
+
+  li.langButton {
+    width: 16.5%;
+  }
+  ul.langButtons {
+    gap: 0.1143%;
+  }
+
+  li.langButton {
+    width: 12.4%;
+  }
+}
+ul.langButtons li.langButton .lbImage {
+  border-style: solid;
+  border-width: 1px;
+  padding: 4px;
+  border-color: #0e2b63;
+  opacity: 0.5;
+}
+ul.langButtons li.langButton:hover .lbImage {
+  opacity: 1;
+}
+ul.langButtons li.langButton.active .lbImage {
+  border-color: #ffffff;
+  opacity: 1;
+}
+ul.langButtons li.langButton {
+  position: relative;
+}
+ul.langButtons li.langButton::after {
+  content: none;
+  position: absolute;
+  top: 47px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 26px;
+  z-index: 2;
+  padding: 2px;
+  border: 1px solid #dedede;
+  background-color: #ffffff;
+}
+ul.langButtons.lBSOBC li.langButton.active::after {
+  border-color: #0e2b63;
+}
+/*ul.langButtons li.langButton.active[data-language-code="ENGLISH"]::after, */
+ul.langButtons li.langButton[data-language-code="ENGLISH"]:hover::after {
+  content: "English";
+}
+/*ul.langButtons li.langButton.active[data-language-code="RAI"]::after, */
+ul.langButtons li.langButton[data-language-code="RAI"]:hover::after {
+  content: "Reynolds";
+}
+/*ul.langButtons li.langButton.active[data-language-code="FRENCH"]::after, */
+ul.langButtons li.langButton[data-language-code="FRENCH"]:hover::after {
+  content: "French";
+}
+/*ul.langButtons li.langButton.active[data-language-code="PORTUGUESE"]::after, */
+ul.langButtons li.langButton[data-language-code="PORTUGUESE"]:hover::after {
+  content: "Portuguese";
+}
+/*ul.langButtons li.langButton.active[data-language-code="SPANISH"]::after, */
+ul.langButtons li.langButton[data-language-code="SPANISH"]:hover::after {
+  content: "Spanish";
+}
+/*ul.langButtons li.langButton.active[data-language-code="FRUSSIAN"]::after, */
+ul.langButtons li.langButton[data-language-code="RUSSIAN"]:hover::after {
+  content: "Russian";
+}
+/*ul.langButtons li.langButton.active[data-language-code="GERMAN"]::after, */
+ul.langButtons li.langButton[data-language-code="GERMAN"]:hover::after {
+  content: "German";
+}
+/*ul.langButtons li.langButton.active[data-language-code="POLISH"]::after, */
+ul.langButtons li.langButton[data-language-code="POLISH"]:hover::after {
+  content: "Polish";
+}
+/*ul.langButtons li.langButton.active[data-language-code="ROMANIAN"]::after, */
+ul.langButtons li.langButton[data-language-code="ROMANIAN"]:hover::after {
+  content: "Romanian";
+}
+/*ul.langButtons li.langButton.active[data-language-code="JAPANESE"]::after, */
+ul.langButtons li.langButton[data-language-code="JAPANESE"]:hover::after {
+  content: "Japanese";
+}
+/*ul.langButtons li.langButton.active[data-language-code="ARABIC"]::after, */
+ul.langButtons li.langButton[data-language-code="ARABIC"]:hover::after {
+  content: "Arabic";
+}
+/*ul.langButtons li.langButton.active[data-language-code="CHINESE"]::after, */
+ul.langButtons li.langButton[data-language-code="CHINESE"]:hover::after {
+  content: "Chinese";
+}
+/*ul.langButtons li.langButton.active[data-language-code="TURKISH"]::after, */
+ul.langButtons li.langButton[data-language-code="TURKISH"]:hover::after {
+  content: "Turkish";
+}
+/*ul.langButtons li.langButton.active[data-language-code="KOREAN"]::after, */
+ul.langButtons li.langButton[data-language-code="KOREAN"]:hover::after {
+  content: "Korean";
+}
+/*ul.langButtons li.langButton.active[data-language-code="BENGALI"]::after, */
+ul.langButtons li.langButton[data-language-code="BENGALI"]:hover::after {
+  content: "Bengali";
+}
+/*ul.langButtons li.langButton.active[data-language-code="URDU"]::after, */
+ul.langButtons li.langButton[data-language-code="URDU"]:hover::after {
+  content: "Urdu";
+}
+/*ul.langButtons li.langButton.active[data-language-code="BAHASA"]::after, */
+ul.langButtons li.langButton[data-language-code="BAHASA"]:hover::after {
+  content: "Bahasa";
+}
+/*ul.langButtons li.langButton.active[data-language-code="VIETNAMESE"]::after, */
+ul.langButtons li.langButton[data-language-code="VIETNAMESE"]:hover::after {
+  content: "Vietnamese";
+}
+/*ul.langButtons li.langButton.active[data-language-code="UKRAINIAN"]::after, */
+ul.langButtons li.langButton[data-language-code="UKRAINIAN"]:hover::after {
+  content: "Ukrainian";
+}
+/*ul.langButtons li.langButton.active[data-language-code="HUNGARIAN"]::after, */
+ul.langButtons li.langButton[data-language-code="HUNGARIAN"]:hover::after {
+  content: "Hungarian";
+}
+.obj20 {
+  display: none;
+}
+.psItem {
+  margin-top: 0;
+  position: relative;
+}
+.psImage {
+  position: relative;
+}
+.overlayText {
+  position: absolute;
+  left: 20px;
+  bottom: 80px;
+  font-size: 32px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  line-height: 1em;
+}
+@media only screen and (max-width: 719px) {
+  .overlayText {
+  }
+}
+.overlayText div {
+  color: #ffffff;
+}
+div.policyLink {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.policyLink.active {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.policyLink.active a {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+.policyLink.active a img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.psStrip {
+  width: 100%;
+  height: 18px;
+  background-color: #014e9e;
+}
+.psLower {
+  width: 100%;
+  background-color: #102a63;
+  height: 64px;
+  padding-left: 21px;
+  padding-top: 12px;
+}
+.psLower .logo {
+  width: 77px;
+  height: 32.5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.settings-language-RAI .psItem.psSOBC .psLower {
+  padding-left: 13px;
+  padding-top: 5px;
+}
+.settings-language-RAI .psItem.psSOBC .psLower .logo {
+  width: 146.1884px;
+  height: 46.5px;
+}
+.psItem:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 11.25px;
+  width: 100%;
+  display: block;
+  background: linear-gradient(
+      90deg,
+      #0e2b63 30.4785%,
+      rgba(0, 0, 0, 0) 30.4785%
+    ),
+    linear-gradient(90deg, #004f9f 52.15788%, rgba(0, 0, 0, 0) 52.15788%),
+    linear-gradient(90deg, #00b1eb 64.72807%, rgba(0, 0, 0, 0) 64.72807%),
+    linear-gradient(90deg, #ef7d00 73.22551%, rgba(0, 0, 0, 0) 73.22551%),
+    linear-gradient(90deg, #ffbb00 79.62792%, rgba(0, 0, 0, 0) 79.62792%),
+    linear-gradient(90deg, #50af47 86.69237%, rgba(0, 0, 0, 0) 86.69237%),
+    linear-gradient(90deg, #afca0b 92.0305%, rgba(0, 0, 0, 0) 92.0305%),
+    linear-gradient(90deg, #5a328a 97.0083%, rgba(0, 0, 0, 0) 97.0083%),
+    linear-gradient(90deg, #e72582 100%, rgba(0, 0, 0, 0) 100%);
+}
+.psItem.psSOBC .policyLink.active,
+.psItem.psSCOC .policyLink.active {
+  display: block;
+}
+.pstText {
+  display: flex;
+  align-items: center;
+}
+.policyLinkExplanation {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 20px;
+}
+.pstPrefix,
+.pstText {
+  font-size: 3.6vw;
+}
+.section-Policy-selection-page .pageBanner .pBText .pstText {
+  margin-top: 4px;
+}
+a.gateway-inlink {
+  cursor: pointer;
+  height: 66px;
+  margin-top: -26px;
+  margin-left: 10px;
+}
+.inlink-image,
+.inlink-image img {
+  height: 100%;
+}
+@media only screen and (min-width: 720px) {
+  .pstPrefix,
+  .pstText {
+    font-size: 1em;
+  }
+
+  .sectionIntro {
+    -moz-column-count: 1 !important;
+         column-count: 1 !important;
+  }
+
+  .pageBanner .pBText {
+    margin-bottom: 0;
+  }
+
+  .sectionContent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sectionContent .obj23,
+  .sectionContent .obj25 {
+    width: 49%;
+    margin-bottom: 0;
+  }
+
+  .psItems {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .psItem {
+    width: 100%;
+  }
+
+  .psItem.psSOBC {
+    margin-right: 10px;
+  }
+
+  .psItem.psSCOC {
+  }
+
+  .overlayText {
+  }
+}
+/* page specific class */
+/* mobile first */
+/* BOOKMARKS PAGE */
+.sobc-standard.page-bookmarksPage .forcechange {
+  color: #000001;
+}
+.sobc-standard.page-bookmarksPage .sectionIntro {
+  -moz-column-count: 1;
+       column-count: 1;
+}
+.sobc-standard.page-bookmarksPage .sectionContent {
+  margin-top: 0;
+}
+.js .sobc-standard.page-bookmarksPage .pageTitle .ptBookmark {
+  display: none;
+}
+.js .sobc-standard.page-bookmarksPage #bookmarklistWrapper {
+  width: 100%;
+  min-height: 200px;
+  padding-top: 20px;
+}
+.js .sobc-standard.page-bookmarksPage .bookmarkitem {
+  color: #333333;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.js .sobc-standard.page-bookmarksPage .bookmarkitem .bmiNum {
+  width: 26px;
+  text-align: right;
+  margin-left: calc(15% - 44px);
+}
+.js .sobc-standard.page-bookmarksPage .bookmarkitem .bmiTitle {
+  margin-left: 20px;
+  width: 70%;
+}
+.js .sobc-standard.page-bookmarksPage .bookmarkitem a.bmlink {
+  color: #333333;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.15s;
+}
+.js .sobc-standard.page-bookmarksPage .bookmarkitem a.bmlink:hover {
+  font-size: 1.2em;
+}
+.js .sobc-standard.page-bookmarksPage .bookmarkitem .bmiAction {
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-size: 26px 26px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.js .sobc-standard.page-bookmarksPage .bookmarkitem .bmiAction:hover {
+  transform: scale(1.2);
+}
+@media only screen and (max-width: 759px) {
+  .js .sobc-standard.page-bookmarksPage .bookmarkitem .bmiNum {
+    margin-left: 0;
+  }
+  .js .sobc-standard.page-bookmarksPage .bookmarkitem .bmiTitle {
+    width: 80%;
+  }
+}
+/* SEARCH PAGE */
+.sobc-standard.page-searchPage .sectionContent {
+  margin-top: 0;
+}
+.page-searchPage .obj23 {
+  height: 78px;
+}
+.page-searchPage #bodyContent {
+  /* background-color:#0e2b63;*/
+}
+.page-searchPage #searchTitle {
+  color: #0e2b63;
+  font-size: 1.2em;
+  margin: 0 0 8px 0;
+}
+.page-searchPage #searchentry {
+  width: 100%;
+  background-color: #d6e4f1;
+  height: 46px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 14px;
+  padding-top: 3px;
+}
+html.iOS .page-searchPage #searchentry {
+  padding-top: 0;
+}
+.page-searchPage #searchentry .inputButton {
+  display: none;
+}
+.page-searchPage input#SQRY {
+  background-color: #d6e4f1;
+  border: none;
+  line-height: 1.6em;
+  height: 40px;
+  width: calc(100% - 64px);
+  margin-left: 32px;
+  font-size: 1em;
+}
+/* for app only */
+.page-searchPage .searchResultNumber,
+.page-searchPage #searchResultsFooterWrapper {
+  display: none;
+}
+.page-searchPage .searchResult a {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #333;
+  font-size: 1em;
+  width: calc(100% - 32px);
+  border-style: solid;
+  border-color: #0e2b63; /* #d6e4f1;*/
+  border-width: 0 0 1px 0;
+  padding: 10px 32px 10px 0;
+  position: relative;
+}
+.page-searchPage .searchResult a:after {
+  display: block;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  transform: rotate(90deg);
+  transition: all 0.25s ease;
+}
+.page-searchPage .obj24 {
+  height: calc(99vh - 286px);
+  overflow-y: auto;
+  background-color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.page-policies-ethical-decision-making .edm[data-step="4"] .edmQImage {
+  display: none;
+}
+@media only screen and (max-width: 759px) {
+  .page-searchPage .obj24 {
+    height: calc(100vh - 232px);
+  }
+}
+.page-searchPage #searchResultsBody,
+.page-searchPage #searchResults {
+  height: 100%;
+}
+.page-searchPage #searchResultsBody,
+.page-searchPage #searchError {
+  display: none;
+}
+.page-searchPage #searchError {
+  margin-top: 10px;
+}
+.page-searchPage #searchResultsBody.active,
+.page-searchPage #searchError.active {
+  display: block;
+}
+.page-searchPage #searchResults a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+/* HEALTH, SAFETY AND WELFARE */
+.pageLanguage-ARABIC.page-policies-health-safety-welfare .small-content h5:last-of-type {
+    --tw-text-opacity: 1;
+    color: rgba(14, 43, 99, 1);
+    color: rgba(14, 43, 99, var(--tw-text-opacity));
+}
+/* OUR PURPOSE AND ETHOS */
+.page-policies-our-purpose-and-ethos .pageBanner .pBMobileBanner,
+.page-policies-our-purpose-and-ethos .pageBanner .pBDesktopBanner {
+  display: none;
+}
+.page-policies-message-from-ceo .sectionContent {
+  margin-top: 0;
+}
+@media only screen and (min-width: 720px) {
+  .page-glossary .sectionContent,
+  .page-policies-message-from-ceo .sectionContent,
+  .page-policies-scoc-message-from-director-of-operations .sectionContent {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+.page-policies-message-from-ceo .pBText {
+  padding-top: 16px;
+}
+.page-policies-message-from-ceo .obj23 {
+  display: none;
+}
+@media only screen and (min-width: 720px) {
+  .page-policies-message-from-ceo .pageBanner .pBDesktopBanner {
+    margin-bottom: 16px;
+  }
+}
+.page-policies-message-from-reynolds-ceo .pBTitleText h3 > span {
+  white-space: nowrap;
+}
+@media only screen and (min-width: 720px) {
+  .page-policies-message-from-reynolds-ceo .sectionContent {
+    -moz-column-count: 2;
+         column-count: 2;
+  }
+}
+.page-policies-our-purpose-and-ethos .sectionContent {
+  -moz-column-count: 1 !important;
+       column-count: 1 !important;
+}
+.page-policies-our-purpose-and-ethos .sectionContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+/*.page-policies-our-purpose-and-ethos .obj21 h5*/
+.sobc-standard.page-policies-our-purpose-and-ethos .sectionIntro {
+  -moz-columns: 1;
+       columns: 1;
+}
+.page-policies-our-purpose-and-ethos .peItem-intro h5 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+.page-policies-our-purpose-and-ethos .opaeIntro h5 {
+  font-size: 1.25em;
+  font-weight: 400;
+  margin: 0;
+}
+.page-policies-our-purpose-and-ethos .obj22 {
+  display: none;
+}
+.page-policies-our-purpose-and-ethos .obj23 {
+  padding-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-policies-our-purpose-and-ethos .obj23 .peItem-ethos {
+  padding-top: 0;
+}
+.page-policies-our-purpose-and-ethos .obj23 h4 {
+  margin-top: 1.33em;
+}
+@media only screen and (min-width: 720px) {
+  .page-policies-our-purpose-and-ethos .obj23 {
+    padding-top: 20px;
+  }
+
+  .page-policies-our-purpose-and-ethos .obj23,
+  .page-policies-our-purpose-and-ethos .obj24 {
+    width: 32%;
+  }
+}
+.page-policies-our-purpose-and-ethos .obj27,
+.page-policies-our-purpose-and-ethos .obj29 {
+  width: 45%;
+}
+.page-policies-our-purpose-and-ethos .obj21 h3 {
+  color: #004f9f;
+  font-size: 1.875em;
+  line-height: 0.9em;
+  letter-spacing: -1.5px;
+  margin-top: 0;
+}
+.page-policies-our-purpose-and-ethos .peItem-intro h3 {
+  display: none;
+}
+.page-policies-our-purpose-and-ethos .peItem h4 {
+  margin-bottom: 0;
+}
+.page-policies-our-purpose-and-ethos .obj21 .peItem h3 {
+  font-size: 3em;
+}
+.page-policies-our-purpose-and-ethos .peItem h3 {
+  margin-top: 0;
+}
+.page-policies-our-purpose-and-ethos .peItem-ethos h4 {
+  color: #50af47;
+}
+.page-policies-our-purpose-and-ethos .peItem-culture h4 {
+  color: #ef7d00;
+}
+.page-policies-our-purpose-and-ethos .peItem-sobc h4 {
+  color: #00b1eb;
+}
+.page-policies-our-purpose-and-ethos .peItem-ethos .verticalLine {
+  width: calc(50% - 1px);
+  border-style: solid;
+  border-color: #50af47;
+  border-width: 0 2px 0 0;
+  height: 42px;
+}
+.page-policies-our-purpose-and-ethos .peItem-culture .verticalLine {
+  width: calc(50% - 1px);
+  border-style: solid;
+  border-color: #ef7d00;
+  border-width: 0 2px 0 0;
+  height: 42px;
+}
+.page-policies-our-purpose-and-ethos .peItem-sobc .verticalLine {
+  width: calc(50% - 1px);
+  border-style: solid;
+  border-color: #00b1eb;
+  border-width: 0 2px 0 0;
+  height: 42px;
+}
+@media only screen and (min-width: 720px) {
+  .page-policies-our-purpose-and-ethos .peItem-intro h3 {
+    display: block;
+  }
+
+  .page-policies-our-purpose-and-ethos .obj22,
+  .page-policies-our-purpose-and-ethos .obj28 {
+    width: 36%;
+  }
+
+  .page-policies-our-purpose-and-ethos .peItem .verticalLine {
+    display: none;
+  }
+
+  .page-policies-our-purpose-and-ethos .obj21,
+  .page-policies-our-purpose-and-ethos .obj23,
+  .page-policies-our-purpose-and-ethos .obj27,
+  .page-policies-our-purpose-and-ethos .obj29 {
+    width: 32%;
+  }
+
+  .page-policies-our-purpose-and-ethos .obj25 {
+    width: 100%;
+  }
+
+  .page-policies-our-purpose-and-ethos .obj25 .purpose-ethos-image {
+    margin-top: -80px;
+    margin-bottom: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .page-policies-our-purpose-and-ethos .peItem-ethos {
+    padding: 0 8px 8px 0;
+    border-color: #afca0b;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    /*text-align:right;*/
+    margin: 0;
+  }
+
+  .page-policies-our-purpose-and-ethos .peItem-culture {
+    padding: 8px;
+    border-color: #ef7d00;
+    border-style: solid;
+    border-width: 2px 0 0 2px;
+  }
+
+  .page-policies-our-purpose-and-ethos .peItem-sobc {
+    padding: 8px;
+    border-color: #00b1eb;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+  }
+}
+.pageLanguage-ARABIC.page-policies-our-purpose-and-ethos .pageBanner .pBTitleText h3 {
+    font-size: 75px;
+    max-width: 500px;
+    line-height: 75px;
+    direction: rtl;
+  }
+.pageLanguage-ARABIC.page-policies-our-purpose-and-ethos .opaeIntro {
+    max-width: 500px;
+    direction: rtl;
+  }
+.pageLanguage-ARABIC.page-policies-our-purpose-and-ethos .opaeIntro h5 {
+      font-weight: 800;
+    }
+.pageLanguage-ARABIC.page-policies-our-purpose-and-ethos .peItem.peItem-intro {
+    direction: rtl;
+  }
+.pageLanguage-ARABIC.page-policies-our-purpose-and-ethos .obj.obj21 {
+    flex: 5;
+  }
+.pageLanguage-ARABIC.page-policies-our-purpose-and-ethos .obj.obj23 {
+    flex: 2.5;
+  }
+.pageLanguage-ARABIC.page-policies-our-purpose-and-ethos .obj.obj24 .peItem.peItem-ethos {
+    direction: rtl;
+    border-width: 0 0 2px 2px;
+  }
+.pageLanguage-ARABIC.page-policies-our-purpose-and-ethos .obj.obj27 .peItem.peItem-culture {
+    direction: rtl;
+  }
+.pageLanguage-ARABIC.page-policies-our-purpose-and-ethos .obj.obj29 .peItem.peItem-sobc {
+    direction: rtl;
+  }
+@media only screen and (min-width: 720px) {
+  .policies-contents-page #pollicy-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+/* GROUP SPEAK UP POLICY */
+.page-policies-speak-up .yswlwa {
+  position: relative;
+  width: 319px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-policies-speak-up .yswlwaspeak {
+  font-size: 16px;
+  position: absolute;
+  left: 133px;
+  top: 45px;
+  text-align: center;
+  font-weight: 700;
+  display: block;
+}
+.pageLanguage-ARABIC.page-policies-speak-up .section-intro .large-content h4 {
+    color: #0e2b63 !important;
+}
+.pageLanguage-ARABIC.page-policies-speak-up .section-intro .large-content h4 {
+    --tw-text-opacity: 1;
+    color: rgba(14, 43, 99, 1);
+    color: rgba(14, 43, 99, var(--tw-text-opacity));
+}
+.pageLanguage-FRENCH.page-policies-speak-up .yswlwaspeak {
+  left: 133px;
+}
+.pageLanguage-SPANISH.page-policies-speak-up .yswlwaspeak {
+  font-size: 14px;
+  left: 136px;
+}
+.pageLanguage-PORTUGUESE.page-policies-speak-up .yswlwaspeak {
+  left: 137px;
+}
+.pageLanguage-POLISH.page-policies-speak-up .yswlwaspeak {
+  left: 127px;
+}
+.pageLanguage-UKRAINIAN.page-policies-speak-up .yswlwaspeak {
+  left: 119px;
+}
+.page-policies-speak-up .yswlwalisten {
+  font-size: 16px;
+  position: absolute;
+  left: 235px;
+  top: 207px;
+  text-align: center;
+  font-weight: 700;
+  display: block;
+}
+.pageLanguage-FRENCH.page-policies-speak-up .yswlwalisten {
+  left: 221px;
+}
+.pageLanguage-SPANISH.page-policies-speak-up .yswlwalisten {
+  font-size: 14px;
+  left: 213px;
+}
+.pageLanguage-PORTUGUESE.page-policies-speak-up .yswlwalisten {
+  left: 222px;
+}
+.pageLanguage-POLISH.page-policies-speak-up .yswlwalisten {
+  left: 219px;
+}
+.pageLanguage-UKRAINIAN.page-policies-speak-up .yswlwalisten {
+  left: 220px;
+}
+.page-policies-speak-up .yswlwaact {
+  font-size: 16px;
+  position: absolute;
+  left: 43px;
+  top: 207px;
+  text-align: center;
+  font-weight: 700;
+  display: block;
+}
+.pageLanguage-FRENCH.page-policies-speak-up .yswlwaact {
+  left: 23px;
+}
+.pageLanguage-SPANISH.page-policies-speak-up .yswlwaact {
+  font-size: 14px;
+  left: 23px;
+}
+.pageLanguage-PORTUGUESE.page-policies-speak-up .yswlwaact {
+  left: 28px;
+}
+.pageLanguage-POLISH.page-policies-speak-up .yswlwaact {
+  left: 21px;
+}
+.pageLanguage-UKRAINIAN.page-policies-speak-up .yswlwaact {
+  left: 34px;
+}
+/* ANTI-TAX EVASION AND ANTI-MONEY-LAUNDERING */
+.page-policies-anti-tax-evasion-and-anti-money-laundering
+  .obj35
+  h4:nth-child(1) {
+  margin-top: 0;
+}
+/* ROLE OF LINE MANAGERS INTERACTIVE */
+.page-role-of-line-managers-interactive .sectionIntro .sectionHeader {
+  display: none;
+}
+@media only screen and (min-width: 720px) {
+  .page-role-of-line-managers-interactive .sectionContent {
+    margin-top: 0;
+  }
+  .page-role-of-line-managers-interactive .sectionIntro {
+    -moz-column-count: 1;
+         column-count: 1;
+  }
+}
+/* ANTI-ILLICIT TRADE */
+.page-policies-anti-illicit-trade .sectionIntro li {
+  color: #0e2b63;
+}
+/* INSIDER DEALING AND MARKET ABUSE */
+.page-policies-insider-dealing-and-market-abuse-RAI .pBMobileBanner {
+  position: relative;
+}
+.page-policies-insider-dealing-and-market-abuse-RAI .pBMobileBanner::after {
+  content: "*In the U.S., BAT stock is listed on the NYSE under the symbol BTI.";
+  color: #ffffff;
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  width: calc(100% - 40px);
+  text-align: right;
+}
+@media only screen and (min-width: 720px) {
+  .page-policies-insider-dealing-and-market-abuse-RAI .pBDesktopBanner {
+    position: relative;
+  }
+
+  .page-policies-insider-dealing-and-market-abuse-RAI .pBDesktopBanner::after {
+    content: "*In the U.S., BAT stock is listed on the NYSE under the symbol BTI.";
+    color: #ffffff;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: calc(100% - 80px);
+    text-align: right;
+  }
+}
+/* MESSAGE FROM OUR DIRECTOR OF OPERATIONS */
+.page-policies-scoc-message-from-director-of-operations .sectionContent {
+  -moz-column-count: 1;
+       column-count: 1;
+  margin-top: 0;
+}
+/* SCOC - INTRODUCTION */
+.page-policies-scoc-introduction .pageBanner .pBTitleText::before {
+  content: "";
+  display: none;
+}
+/* SCOC - BUSINESS INTEGRITY */
+.page-policies-scoc-business-and-integrity .sectionIntro li {
+  color: #0e2b63;
+}
+/* SCOC - NO G&E TRACKER */
+.sh-scoc ul#ow_fnav2 li#ow_fnav2_li_firstone,
+.page-scoc ul#ow_fnav2 li#ow_fnav2_li_firstone {
+  display: none;
+}
+.sh-scoc ul#ow_fnav2,
+.page-scoc ul#ow_fnav2 {
+  width: 170px;
+}
+/* FIND PROCEDURES */
+@media only screen and (min-width: 720px) {
+  .page-find-procedures .sectionIntro {
+    margin-top: 32px;
+  }
+}
+.language-rtl {
+  direction: rtl;
+}
+/* GLOSSARY */
+.settings-language-URDU body.page-glossary,
+.settings-language-ARABIC body.page-glossary {
+  direction: rtl;
+}
+/* MAIN MENU MESSAGE FROM (SoBC AND SCoC) */
+.page-message-from .sectionIntro,
+.page-message-from .sectionContent {
+  -moz-column-count: 1 !important;
+       column-count: 1 !important;
+}
+ul.policy-pages {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+div#policy-sections {
+  /*
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  */
+  margin-top: 33px;
+}
+div.p-section {
+  width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.p-section.section-CONTACT h4 {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+div.p-section.section-CONTACT.contact1 h4 {
+  display: none;
+}
+@media only screen and (min-width: 720px) {
+  .section-Policies-Contents #policy-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2.5%;
+  }
+  div.p-section {
+    margin-left: 0;
+    margin-right: 0;
+    width: calc((100% - 5%) / 3);
+  }
+
+  div.p-section.section-CONTACT {
+    margin-top: 0;
+  }
+}
+div.p-section .hImageWrapper {
+  position: relative;
+}
+div.p-section .hImageOverlay {
+  position: absolute;
+  /* top: 0; */
+  right: 0;
+  bottom: 0;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  height: 65px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* SoBC */
+.p-section.section-INTRODUCTION .hImageOverlay {
+  background-color: rgba(14, 43, 99, 0.9); /*#0e2b63; */
+}
+.p-section.section-SPEAK_UP .hImageOverlay,
+.p-section.section-COMPLIANCE .hImageOverlay {
+  background-color: rgba(175, 202, 11, 0.9); /* #afca0b; */
+}
+.p-section.section-SOCIAL_AND_ENVIRONMENT .hImageOverlay,
+.p-section.section-HUMAN_RIGHTS .hImageOverlay {
+  background-color: rgba(231, 37, 130, 0.9); /* #e72582; */
+}
+.p-section.section-PERSONAL_AND_BUSINESS_INTEGRITY .hImageOverlay,
+.p-section.section-BUSINESS_INTEGRITY .hImageOverlay {
+  background-color: rgba(255, 187, 0, 0.9); /* #ffbb00; */
+}
+.p-section.section-EXTERNAL_STAKEHOLDERS .hImageOverlay {
+  background-color: rgba(0, 177, 235, 0.9); /* #00b1eb; */
+}
+.p-section.section-CORPORATE_ASSETS_AND_FINANCIAL_INTEGRITY .hImageOverlay,
+.p-section.section-ENVIRONMENTAL_SUSTAINABILITY .hImageOverlay {
+  background-color: rgba(80, 175, 71, 0.9); /* #50af47; */
+}
+.p-section.section-NATIONAL_AND_INTERNATIONAL_TRADE .hImageOverlay,
+.p-section.section-MARKETING_AND_TRADE .hImageOverlay {
+  background-color: rgba(239, 125, 0, 0.9); /* #ef7d00; */
+}
+.p-section.section-GLOSSARY .hImageOverlay {
+  background-color: rgba(0, 79, 159, 0.9); /* #004f9f; */
+}
+html.pageRTL div.p-section .hImageOverlay {
+  padding-left: 0;
+  padding-right: 20px;
+  right: auto;
+  right: initial;
+}
+div.p-section .hImageOverlay span {
+  font-size: 20px; /* Rev3 19px; */ /* Rev1 1em*/
+  line-height: 22px; /* Rev1*/
+  font-weight: 400;
+  /*width: 126px;*/
+  letter-spacing: 0px;
+}
+div.p-section .hImage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  /*   filter: grayscale(100%) brightness(1.0) contrast(1.2);*/
+}
+div.nav-policies-speak-up .hImageOverlay {
+  background-color: #afca0b;
+}
+div.p-section .hStrapline {
+  color: #0e2b63; /* June 2021 replaces #333333; */
+  min-height: 50px;
+  line-height: 24px;
+  padding-left: 0;
+  padding-right: 6px;
+  font-weight: 700;
+  /*background-color:#243066;*/
+}
+div.p-section ul.policy-pages {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+div.p-section ul.policy-pages li a {
+  color: #0e2b63; /* June 2021 replaces #333333; */
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+div.nav-policies-speak-up .hStrapline {
+}
+div.p-section .hStrapline span {
+  display: block;
+}
+div.p-section ul.policy-pages li {
+  margin-bottom: 5px;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #000000;
+  padding-bottom: 6px;
+}
+div.p-section ul.policy-pages li:last-of-type {
+  /*border:none;*/
+}
+/* SoBC */
+#policy-sections ul.policy-pages li a {
+  display: block;
+  position: relative;
+  padding-right: 30px;
+}
+#policy-sections ul.policy-pages li a::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 0;
+  height: 13px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.p-section.section-CONTACT.contact2 {
+}
+.p-section.section-CONTACT.contact2 a {
+  font-weight: 700;
+  color: #0e2b63;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+.p-section.section-CONTACT.contact2 p {
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+.p-section.section-CONTACT.contact2 img {
+  display: block;
+  height: 52px;
+  width: 52px;
+  margin-bottom: 16px;
+}
+.form--search {
+
+  }
+.gform_body {
+
+  }
+.gform_footer {
+
+  }
+.pagination {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: -moz-min-content;
+    width: min-content;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-style: solid;
+}
+.pagination .page-numbers {
+    text-decoration-line: none !important;
+}
+.pagination .page-numbers {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right-width: 1px;
+    border-style: solid;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+@media (min-width: 1024px) {
+.pagination .page-numbers {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    }
+.pagination .page-numbers:first-child {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+.pagination .page-numbers:last-child {
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-right-width: 0px;
+}
+.pagination .page-numbers i {
+    font-weight: 400;
+}
+.pagination .page-numbers.current {
+    font-weight: 700;
+}
+.pagination a:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(243, 244, 246, 1);
+    background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+.post {
+
+}
+.posts {
+
+}
+.section-Main-I-want-to-disclose-a-conflict .accordionContainer a {
+      color: #ffbb00;
+      -webkit-text-decoration: underline;
+      text-decoration: underline;
+    }
+.who-to-talk-to p {
+    margin: 0;
+  }
+.section-Policies-Introduction .obj.reversed {
+  background-color: #0e2b63;
+  padding: 10px 20px 20px 20px;
+}
+.section-Policies-Introduction .obj.reversed p:first-of-type {
+    margin-top: 0;
+  }
+.section-Policies-Introduction .obj.reversed h4 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+.section-Policies-Introduction .obj.reversed a {
+    color: #fff;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+  }
+.accordionBody ul ul {
+      margin-top: 0;
+    }
+.accordionBody.no-mobile-collapse {
+    display: block;
+  }
+/* Who to talk to and Contacting the Group */
+.who-to-talk-to a {
+    text-decoration-line: underline;
+}
+.generic-content .sectionContent {
+    display: block;
+    -moz-column-count: 1;
+         column-count: 1;
+  }
+.generic-content .sectionContent .obj {
+      display: block;
+    }
+.section-Main-generic-multi-column .generic-content .sectionContent {
+      -moz-column-count: 3;
+           column-count: 3;
+    }
+.section-Main-generic.sobc-standard .sectionContent {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+.section-Main-generic.sobc-standard .sectionContent .obj {
+      width: 30%;
+    }
+.cookie-notice .mainContentInner .sectionContent {
+    -moz-column-count: 1;
+         column-count: 1;
+  }
+/* Generic Table Styles */
+table {
+    --tw-text-opacity: 1;
+    color: rgba(14, 43, 99, 1);
+    color: rgba(14, 43, 99, var(--tw-text-opacity));
+  background: white;
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+table thead th,
+table tfoot th {
+  color: #777;
+  background: rgba(0,0,0,.1);
+}
+table caption {
+  padding:.5em;
+}
+table th,
+table td {
+  padding: .5em;
+  border: 1px solid lightgrey;
+}
+/* TABLES : DATATABLE */
+table.dataTable td {
+  vertical-align: top;
+}
+table.dataTable th {
+  vertical-align: top;
+}
+div.dataTable {
+  overflow: auto;
+  width: 100%;
+}
+table.dataTable {
+  border: none;
+  font-size: 0.95em;
+  width: 100%;
+}
+table.dataTable .tdbold {
+  font-weight: bold;
+}
+table.dataTable th.thc {
+  text-align: center;
+}
+table.dataTable td.tdc {
+  text-align: center;
+}
+table.dataTable th.fwn {
+  font-weight: normal;
+}
+table.dataTable tr.dataTableRowOdd {
+  background-color: #ffffff;
+}
+table.dataTable tr.dataTableRowEven {
+  background-color: #efefef;
+}
+table.dataTable th {
+  padding: 5px !important;
+}
+table.dataTable th {
+  text-align: right;
+  border: none;
+}
+table.dataTable th.thl {
+  text-align: left;
+}
+table.dataTable td {
+  padding: 5px !important;
+}
+table.dataTable td {
+  text-align: right;
+  border: none;
+}
+table.dataTable td.tdl {
+  text-align: left;
+}
+table.dataTable .dataTableCollapsedOnly {
+  float: left;
+}
+table.dataTable th.rtDataCell,
+table.dataTable td.rtDataCell {
+  text-align: right;
+}
+table.dataTable th.rtLabelCell,
+table.dataTable td.rtLabelCell {
+  text-align: left !important;
+}
+table.dataTable th.rtLabelCell,
+table.dataTable td.rtLabelCell {
+  font-weight: bold;
+}
+.glossary-page .obj20,
+  .glossary-page .obj21 {
+    display: block;
+}
+.glossary-page .sectionIntro,
+  .glossary-page .sectionContent {
+    margin-top: 0;
+    -moz-column-count: 1;
+         column-count: 1;
+  }
+.glossary-page .sectionIntro h4 {
+    margin: 40px 0 0 0;
+  }
+.glossary-page #glossaryList ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.glossary-page #glossaryList li {
+    display: block;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+  }
+.glossary-page #glossaryList li ul {
+    padding-left: 40px;
+    list-style-type: disc;
+  }
+.glossary-page #glossaryList li ul li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: list-item;
+  }
+.glossary-page #glossaryList li .giTerm {
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: 1.2em 0;
+  }
+.page-role-of-line-managers-interactive .sectionContent {
+    display: block;
+  }
+.page-role-of-line-managers-interactive .accordionContainer {
+    margin-top: 2.5rem;
+}
+/* ROLE OF LINE MANAGERS */
+.page-role-of-line-managers-interactive .page-policy-role-of-line-managers .qlWrapper {
+    display: none; /*not needed */
+  }
+/* auto generated list of links to policies */
+.page-role-of-line-managers-interactive #rolmTiles {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+  }
+.page-role-of-line-managers-interactive #rolmTiles .rolmT {
+    padding: 20px;
+    cursor: pointer;
+  }
+.page-role-of-line-managers-interactive .tOSection {
+    display: none;
+  }
+.page-role-of-line-managers-interactive .tOSection.active {
+    display: block;
+  }
+.page-role-of-line-managers-interactive .tOButtons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px; /* Rev1 */
+    flex-wrap: wrap;
+  }
+/* Rev1 margin-top:60px; */
+@media screen and (max-width: 800px) {
+.page-role-of-line-managers-interactive .tOButtons {
+      justify-content: space-evenly
+  }
+    }
+@media only screen and (min-width: 720px) {
+    .page-role-of-line-managers-interactive .tOButtons {
+      margin-top: 0;
+    }
+  }
+.page-role-of-line-managers-interactive .tOButtons .tOBtn {
+    width: calc((100% - 48px) / 5); /* Rev1 */ cursor: pointer;
+  }
+/* Rev1 zzz... obsolete */
+.page-role-of-line-managers-interactive .zzztOButtons[data-btncount="5"] .tOBtn {
+    width: calc((100% - 60px) / 6); /* Rev1 calc((100% - 16px) / 5); */
+  }
+.page-role-of-line-managers-interactive .zzztOButtons[data-btncount="4"] .tOBtn {
+    width: calc((100% - 48px) / 5); /* Rev1 */
+  }
+.page-role-of-line-managers-interactive .zzztOButtons[data-btncount="3"] .tOBtn {
+    width: calc((100% - 36px) / 4); /* Rev1 calc((100% - 8px) / 3); */
+  }
+.page-role-of-line-managers-interactive .zzztOButtons[data-btncount="2"] .tOBtn {
+    width: calc((100% - 24px) / 3); /* Rev1 calc((100% - 4px) / 2); */
+  }
+.page-role-of-line-managers-interactive .zzztOButtons[data-btncount="1"] .tOBtn {
+    width: 120px; /* Rev1 120px; */
+  }
+.page-role-of-line-managers-interactive .tOBtn {
+    /* Rev1 margin-right:4px; */
+    filter: opacity(0.6);
+    max-width: 120px;
+  }
+.page-role-of-line-managers-interactive .tOBtn:last-of-type {
+    margin-right: 0;
+  }
+.page-role-of-line-managers-interactive .tOBtn.active {
+    filter: opacity(1);
+  }
+.page-role-of-line-managers-interactive .tOBtnCaption {
+    font-size: 0.75em;
+    text-align: center;
+    margin: 12px 4px;
+  }
+.page-role-of-line-managers-interactive .tOWrapper {
+    display: none;
+  }
+.page-role-of-line-managers-interactive .tOWrapper.active {
+    display: block;
+    justify-content: space-between;
+  }
+.page-role-of-line-managers-interactive .tOContent {
+    margin-bottom: 20px;
+  }
+.page-role-of-line-managers-interactive .tOContent ul {
+    margin-top: 0;
+    padding-left: 20px;
+  }
+@media only screen and (min-width: 720px) {
+    .page-role-of-line-managers-interactive .tOWrapper.active {
+      display: flex;
+      justify-content: space-between;
+    }
+    .page-role-of-line-managers-interactive .tOWrapper .tOContent,
+    .page-role-of-line-managers-interactive .tOWrapper .tOResources {
+      width: 48.5%;
+    }
+
+    .page-role-of-line-managers-interactive .tOContent {
+      margin-bottom: 0;
+    }
+  }
+.page-role-of-line-managers-interactive .tOCaption {
+    /* Rev1 margin-bottom:30px; */
+  }
+.page-role-of-line-managers-interactive .tOResources {
+    background-color: #f9f7f8;
+    padding: 20px;
+  }
+.page-role-of-line-managers-interactive .tOResourcesHeader {
+    font-weight: 700;
+    font-size: 1em;
+    position: relative;
+    padding-left: 65px;
+    display: block;
+    line-height: 54px;
+    margin-bottom: 12px;
+  }
+.page-role-of-line-managers-interactive .tOResourcesHeader::before {
+    content: "";
+    width: 43px;
+    height: 46px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+@media only screen and (min-width: 512px) {
+    .page-role-of-line-managers-interactive #rolmTiles .rolmT {
+      text-align: left;
+      padding: 20px;
+    }
+  }
+.page-role-of-line-managers-interactive #rolmTiles .rolmT h3 {
+    color: #ffffff;
+    padding: 0;
+    font-size: 30px; /* Rev1 1.875em;*/
+    line-height: 30px; /* Rev1 */
+    margin-top: 0; /* Rev1 */
+    letter-spacing: -1px; /* Rev1 */
+  }
+.page-role-of-line-managers-interactive .rolmSpot {
+    display: none;
+  }
+.page-role-of-line-managers-interactive #tOuterWrap {
+    display: none;
+    background-color: #ffffff;
+    z-index: 1;
+    border-style: solid;
+    border-color: #0e2b63;
+    border-width: 1px 0 0 0;
+    position: relative;
+  }
+.page-role-of-line-managers-interactive #tOuterWrap.active {
+    display: block;
+  }
+.page-role-of-line-managers-interactive #tOuterWrap .headerMessage {
+    padding-right: 130px;
+    margin-top: 10px;
+  }
+.page-role-of-line-managers-interactive #tOuterWrap .headerClose {
+    width: 122px;
+    height: 40px;
+    line-height: 44px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: right top;
+    cursor: pointer;
+  }
+.page-role-of-line-managers-interactive #tOuterWrap .tOContent .tOCaption ~ h4 {
+    color: #0e2b63; /* Rev1 */
+  }
+.page-role-of-line-managers-interactive .tOSection.section-Policies-Speak-up .tOCaption::before {
+    content: "Speak Up";
+  }
+.page-role-of-line-managers-interactive .tOSection.section-Policies-Social-and-environment .tOCaption::before {
+    content: "Social and environment";
+  }
+.page-role-of-line-managers-interactive .tOSection.section-Policies-Personal-and-business-integrity
+    .tOCaption::before {
+    content: "Personal and business integrity";
+  }
+.page-role-of-line-managers-interactive .tOSection.section-Policies-External-stakeholders .tOCaption::before {
+    content: "External stakeholders";
+  }
+.page-role-of-line-managers-interactive .tOSection.section-Policies-Corporate-assets-and-financial-integrity
+    .tOCaption::before {
+    content: "Corporate assets and financial integrity";
+  }
+.page-role-of-line-managers-interactive .tOSection.section-Policies-National-and-international-trade
+    .tOCaption::before {
+    content: "National and international trade";
+  }
+.page-role-of-line-managers-interactive .tOCaption::before {
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 1.22222em;
+    letter-spacing: -0.2px;
+    display: block;
+    margin-top: 20px;
+  }
+.page-role-of-line-managers-interactive .tOButtonMessage::before {
+    display: block;
+    font-weight: 700;
+    font-size: 0.875em;
+    margin: 12px 0;
+    padding-right: 130px;
+  }
+.page-role-of-line-managers-interactive .pageLanguage-ENGLISH .tOButtonMessage::before {
+    content: "Click on the icons below to toggle between policies";
+  }
+.page-role-of-line-managers-interactive .pageLanguage-ENGLISH .section-Policies-Speak-up .tOCaption::before {
+    content: "Group Speak Up Policy";
+  }
+.page-role-of-line-managers-interactive .pageLanguage-ENGLISH
+    .section-Policies-Personal-and-business-integrity
+    .tOCaption::before {
+    content: "Personal and business integrity";
+  }
+.page-role-of-line-managers-interactive .pageLanguage-ENGLISH
+    .section-Policies-Social-and-environment
+    .tOCaption::before {
+    content: "Social and environment";
+  }
+.page-role-of-line-managers-interactive .pageLanguage-ENGLISH
+    .section-Policies-External-stakeholders
+    .tOCaption::before {
+    content: "External stakeholders";
+  }
+.page-role-of-line-managers-interactive .pageLanguage-ENGLISH
+    .section-Policies-Corporate-assets-and-financial-integrity
+    .tOCaption::before {
+    content: "Corporate assets and financial integrity";
+  }
+.page-role-of-line-managers-interactive .pageLanguage-ENGLISH
+    .section-Policies-National-and-international-trade
+    .tOCaption::before {
+    content: "National and international trade";
+  }
+@media only screen and (min-width: 568px) and (max-width: 1199px) {
+    .page-role-of-line-managers-interactive #rolmTiles .rolmT h3 {
+      font-size: 2.5vw !important;
+    }
+    .page-role-of-line-managers-interactive #rolmTiles .rolmT h3 {
+      /* Rev1  margin-top:16px;*/
+    }
+  }
+.page-role-of-line-managers-interactive .tOText .tOResources a {
+    color: #0e2b63;
+  }
+.pageBanner .pBTitleText h1 {
+      display: inline-block;
+      font-size: 30px;
+      line-height: 32px;
+      letter-spacing: -1px;
+      font-weight: 700;
+      margin: 0;
+      padding-right: 10px;
+    }
+.page-policies-our-purpose-and-ethos .sectionContent .obj {
+      display: block;
+      background-color: transparent;
+    }
+.page-policies-our-purpose-and-ethos .sectionContent.new-purpose-ethos .center-text {
+        position: relative;
+        top: 225px;
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+      }
+.page-policies-our-purpose-and-ethos .sectionContent.new-purpose-ethos .peItem.peItem-ethos {
+          border-color: #1b4dae;
+        }
+.page-policies-our-purpose-and-ethos .sectionContent.new-purpose-ethos .peItem.peItem-ethos h4 {
+            color: #1b4dae;
+          }
+.page-policies-our-purpose-and-ethos .sectionContent.new-purpose-ethos .peItem.peItem-culture {
+          border-color: #f07d00;
+        }
+.page-policies-our-purpose-and-ethos .sectionContent.new-purpose-ethos .peItem.peItem-culture h4 {
+            color: #f07d00;
+          }
+.page-policies-our-purpose-and-ethos .sectionContent.new-purpose-ethos .peItem.peItem-sobc {
+          border-color: #51af48;
+        }
+.page-policies-our-purpose-and-ethos .sectionContent.new-purpose-ethos .peItem.peItem-sobc h4 {
+            color: #51af48;
+          }
+.page-policies-our-purpose-and-ethos .sectionContent.new-purpose-ethos .peItem.peItem-sobc img.bottom-right-image {
+            display: inline-block;
+            max-width: 200px;
+          }
+.pw-policy-main-nav.policyMainNav .pmnTextWrapper {
+    height: auto;
+  }
+.procedures-guidance.sectionContent {
+  display: block;
+}
+.procedures-guidance.sectionContent .js .jsToAccordion {
+    display: none;
+  }
+.procedures-guidance.sectionContent .js .accordionBody {
+    height: auto;
+  }
+.procedures-guidance.sectionContent .aaColumnWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+.procedures-guidance.sectionContent .aaColumn {
+    width: 33%;
+  }
+.procedures-guidance.sectionContent .aaColumn a {
+      color: #00b1eb;
+      -webkit-text-decoration: underline;
+      text-decoration: underline;
+    }
+.procedures-guidance.sectionContent .aaColumn ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+.procedures-guidance.sectionContent .aaColumn ul li a {
+    color: #00b1eb;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+  }
+.procedures-guidance.sectionContent .aaColumnHeader {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+
+    padding: 6px 6px 6px 0;
+  }
+.procedures-guidance.sectionContent .aaColumnSubtext {
+    padding: 16px 16px 16px 0;
+    font-size: 0.8725em;
+  }
+.procedures-guidance.sectionContent html.darkmode .aaColumnSubtext {
+    color: #edf8ff;
+  }
+.procedures-guidance.sectionContent a.mainlink {
+    color: #00b1eb;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+  }
+@media only screen and (max-width: 519px) {
+    .procedures-guidance.sectionContent .aaColumn {
+      width: 100%;
+    }
+    .procedures-guidance.sectionContent .aaColumn.no-content {
+      display: none;
+    }
+  }
+.question-steps .sectionContent .obj23,
+  .question-steps .sectionContent .obj25 {
+    display: none;
+  }
+.question-steps .qlWrapper {
+    display: none;
+  }
+.question-steps .sectionIntro,
+  .question-steps .sectionContent {
+    -moz-column-count: 1 !important;
+         column-count: 1 !important;
+  }
+.question-steps .sectionIntro,
+  .question-steps .sectionContent {
+    display: block;
+    justify-content: initial;
+  }
+.question-steps #bodyContent {
+    padding-bottom: 0;
+  }
+.question-steps .obj21 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 40px;
+  }
+.question-steps .zzzsectionContent::before {
+    content: "";
+    background-color: #0e2b63;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 64px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: -64px;
+    left: calc(50% - 22px);
+  }
+.sobc-standard .question-steps .sectionContent {
+  /* background-color: #0e2b63;*/
+  position: relative;
+  margin-top: 0;
+}
+.edmStep,
+.edmQText {
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+}
+.edmQText {
+  /* color:#0e2b63; */
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.edmQText div {
+  color: #ffffff;
+}
+.edmStep {
+  padding-top: 0;
+  display: none;
+}
+.edmQuestion {
+  padding: 0;
+  /* border:1px solid #ffbb00; */
+  background-color: #0e2b63;
+  /*display:flex;*/
+  /*justify-content:space-around;*/
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.edm.final .edmQuestion {
+  background-color: #50af47;
+  border: 1px solid #afca0b;
+  margin-left: auto;
+  margin-right: auto;
+}
+.edmButtons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.edmButtons .edmB {
+  padding: 12px;
+  cursor: pointer;
+  width: 30%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.edmButtons .edmB[data-button="edmNo"] {
+  border: 1px solid #ffbb00;
+  color: #ffbb00;
+}
+.edmTextNo {
+  background-color: #ffbb00; /*#ef7d00;*/
+}
+.edmButtons .edmB[data-button="edmUnsure"] {
+  border: 1px solid #e72582;
+}
+.edmTextUnsure {
+  background-color: #e72582;
+}
+.edmButtons .edmB[data-button="edmUnsure"],
+.edmTextUnsure .edmTWrap {
+  color: #e72582;
+  word-break: break-all;
+}
+.page-id-207 .edmButtons .edmB[data-button="edmUnsure"],
+.page-id-207 .edmTextUnsure .edmTWrap {
+  word-break: normal;
+}
+.page-id-1854 .edmButtons .edmB[data-button="edmUnsure"],
+.page-id-1854 .edmTextUnsure .edmTWrap {
+  word-break: normal;
+}
+.page-id-1889 .edmButtons .edmB[data-button="edmUnsure"],
+.page-id-1889 .edmTextUnsure .edmTWrap {
+  word-break: normal;
+}
+.page-id-1861 .edmButtons .edmB[data-button="edmUnsure"],
+.page-id-1861 .edmTextUnsure .edmTWrap {
+  word-break: normal;
+}
+.edmButtons .edmB[data-button="edmYes"] {
+  border: 1px solid #50af47;
+  color: #50af47;
+}
+.edmT {
+  padding: 12px;
+  text-align: center;
+  /*background-color:#ffbb00;*/
+}
+.edmT h4 {
+  color: #0e2b63;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.edmTextNo .edmBody {
+  color: #0e2b63;
+}
+.edmTextUnsure .edmTitle h4,
+.edmTextUnsure .edmBody {
+  color: #ffffff;
+}
+@media only screen and (max-width: 719px) {
+  .edm.final .edmQuestion {
+    height: 30vw !important;
+    width: 30vw !important;
+  }
+}
+@media only screen and (min-width: 720px) {
+  .js .edm.final .edmQuestion {
+    width: 23vw !important;
+    height: 23vw !important;
+  }
+  .edm {
+    width: calc((100% - 48px) / 4);
+    margin-right: 16px;
+  }
+
+  .edm:nth-child(4) {
+    margin-right: 0;
+  }
+}
+.js .edm {
+  display: none;
+}
+/* .edm {
+  width: 100%;
+} */
+.edm.active {
+  display: block;
+}
+.js .questionstep .edmTextNo {
+  display: none;
+}
+.js .questionstep .edmTextUnsure {
+  display: none;
+}
+.js .questionstep.StatusNo .edmTextNo {
+  display: block;
+}
+.js .questionstep.StatusUnsure .edmTextNo {
+  display: none;
+}
+.js .questionstep.StatusUnsure .edmTextUnsure {
+  display: block;
+}
+.js .questionstep.StatusYes .edmTextNo,
+.js .questionstep.StatusYes .edmTextUnsure {
+  display: none;
+}
+@media only screen and (min-width: 720px) {
+  .js .questionstep .edmTextNo {
+    visibility: hidden;
+    display: block;
+  }
+
+  .js .questionstep .edmTextUnsure {
+    display: none;
+  }
+
+  .js .questionstep.StatusNo .edmTextNo {
+    visibility: visible;
+    display: block;
+  }
+
+  .js .questionstep.StatusUnsure .edmTextNo {
+    visibility: hidden;
+    display: none;
+  }
+
+  .js .questionstep.StatusYes .edmTextNo {
+    visibility: hidden;
+    display: block;
+  }
+
+  .js .questionstep.StatusUnsure .edmTextUnsure {
+    display: block;
+  }
+
+  .js .questionstep.StatusYes .edmTextNo {
+    display: none;
+    visibility: hidden;
+  }
+
+  .js .questionstep.StatusYes .edmTextUnsure {
+    display: none;
+  }
+}
+.js .edm.final .edmButtons,
+.js .edm.final .edmT {
+  display: none;
+}
+.section-intro .large-content p,
+    .section-intro .large-content h4 {
+      color: #0e2b63;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: 0;
+      font-weight: 400;
+      margin-top: 0;
+    }
+.section-intro .large-content p a, .section-intro .large-content h4 a {
+        color: #00b1eb;
+        -webkit-text-decoration: underline;
+        text-decoration: underline;
+      }
+.speak-up-hotline-numbers .sectionContent {
+    display: block;
+  }
+.speak-up-hotline-numbers .qlWrapper {
+    display: none;
+  }
+.speak-up-hotline-numbers .js .accordionBody {
+    margin-bottom: 0;
+  }
+.speak-up-hotline-numbers li[data-sectionid="9"],
+  .speak-up-hotline-numbers li[data-sectionid="10"],
+  .speak-up-hotline-numbers li[data-sectionid="11"],
+  .speak-up-hotline-numbers li[data-sectionid="12"],
+  .speak-up-hotline-numbers li[data-sectionid="13"] {
+    display: none !important;
+  }
+.speak-up-hotline-numbers #countrySearch {
+    font-size: 1.1em;
+    padding: 4px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+.speak-up-hotline-numbers .hotlinenumbersWrap.noPaddingTop {
+    padding-top: 0;
+  }
+.speak-up-hotline-numbers .hotlinenumbersWrap {
+    padding-top: 20px;
+  }
+.speak-up-hotline-numbers .hltitle {
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+.speak-up-hotline-numbers .hotlinenumbersWrap .countryWrap {
+    width: 100%;
+  }
+.speak-up-hotline-numbers .hotlinenumbersWrap .countryWrap .country_lt {
+    width: 50%;
+    margin-right: 0;
+    padding-right: 2%;
+    float: left;
+    margin-bottom: 12px;
+    color: #172962;
+  }
+.speak-up-hotline-numbers .hotlinenumbersWrap .countryWrap .phonenumber {
+    width: 50%;
+    margin-right: 0;
+    float: left;
+    cursor: pointer;
+  }
+.speak-up-hotline-numbers .hotlinenumbersWrap .countryWrap .phonenumber .pn2 {
+    margin-top: 8px;
+  }
+.speak-up-hotline-numbers .hotlinenumbersWrap .phonenumber a {
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    display: block;
+    height: 21px;
+    width: 100%;
+    color: #172962;
+    padding-left: 30px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+  }
+.speak-up-hotline-numbers .settings-language-ARABIC .hotlinenumbersWrap .phonenumber a,
+  .speak-up-hotline-numbers .settings-language-URDU .hotlinenumbersWrap .phonenumber a {
+    padding-left: 0;
+  }
+.invisible {
+    visibility: hidden;
+}
+.static {
+    position: static;
+}
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.left-0 {
+    left: 0px;
+}
+.top-0 {
+    top: 0px;
+}
+.\!mt-0 {
+    margin-top: 0px !important;
+}
+.mb-10 {
+    margin-bottom: 2.5rem;
+}
+.mb-20 {
+    margin-bottom: 5rem;
+}
+.mb-5 {
+    margin-bottom: 1.25rem;
+}
+.mt-10 {
+    margin-top: 2.5rem;
+}
+.mt-\[30px\] {
+    margin-top: 30px;
+}
+.\!block {
+    display: block !important;
+}
+.block {
+    display: block;
+}
+.flex {
+    display: flex;
+}
+.table {
+    display: table;
+}
+.grid {
+    display: grid;
+}
+.hidden {
+    display: none;
+}
+.h-14 {
+    height: 3.5rem;
+}
+.h-full {
+    height: 100%;
+}
+.w-full {
+    width: 100%;
+}
+.max-w-full {
+    max-width: 100%;
+}
+.grow {
+    flex-grow: 1;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.break-inside-avoid {
+    page-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+         break-inside: avoid;
+}
+.flex-col {
+    flex-direction: column;
+}
+.items-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.gap-8 {
+    gap: 2rem;
+}
+.gap-x-4 {
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+}
+.gap-x-5 {
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
+}
+.bg-neutral-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(182, 183, 186, 1);
+    background-color: rgba(182, 183, 186, var(--tw-bg-opacity));
+}
+.object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+.px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.pb-\[56\.25\%\] {
+    padding-bottom: 56.25%;
+}
+.text-right {
+    text-align: right;
+}
+.font-bold {
+    font-weight: 700;
+}
+.ordinal {
+    --tw-ordinal: ordinal;
+    font-feature-settings: ordinal var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+    font-feature-settings: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+    font-variant-numeric: ordinal var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+    font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+.filter {
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+@media not all and (min-width: 800px) {
+
+    .max-md\:\!block {
+        display: block !important;
+    }
+
+    .max-md\:hidden {
+        display: none;
+    }
+}
+@media (min-width: 800px) {
+
+    .md\:\!block {
+        display: block !important;
+    }
+
+    .md\:hidden {
+        display: none;
+    }
+
+    .md\:w-1\/2 {
+        width: 50%;
+    }
+
+    .md\:columns-3 {
+        -moz-columns: 3;
+             columns: 3;
+    }
+
+    .md\:flex-row {
+        flex-direction: row;
+    }
+}
+
+/*# sourceMappingURL=app.css.map*/
