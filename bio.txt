@@ -1,8 +1,32 @@
+eng:
+electrofocus is a DJ and software engineer based in Tashkent. He has been DJing for two years, playing electronic music at parties, venues, and online radio shows. His sets often explore modern house sounds, fast-paced house, trance house, and sometimes electro and techno. He also experiments with vinyl and is beginning to create his own music. Over the past two years, he has become an active part of the local scene, performing at events like Plovistan, Kvadrat, Öz, Rytmabad Radio Episodes, prepartynalivayka, and at Nukus 89, a local art space. He has appeared on Tīrkultūra, DSL System Podcast, and Rytmabad Radio, where he is also part of the team. In 2024 and 2025, he played at the Stihia and Sublimation festivals.
+
+
+--- Contacts & Portfolio ---
+
+Nickname: electrofocus (with lowercase)
+Name (rus): Amir Mullagaliev
+Name (eng): Амир Муллагалиев
+Portfolio: linktr.ee/electrofocus
+
+amirmullagaliev@gmail.com, amirmullagaliev@icloud.com, electrofocus@icloud.com
+t.me/electrofocus
+instagram.com/electrofocus
++998 99 821 77 69
+
+
+--- Tech rider ---
+
+- Pioneer DJ Player (CDJ 2000 or newer, 2 pcs.)
+- DJ Mixer (Allen & Heath or Pioneer)
+- players link
+- monitoring sound
+
+
+--- Events log ---
+
 Month Year
 Date / Event name / Location
-
-Jun 2025
-Sun, 08 Jun @ ??:?? - ? hour set / Öz / ?
 
 May 2025
 Fri, 30 May @ 20:00 - 1 hour set / Stihia 2025 ✕ HÖR / Muynak, Karakalpakstan
