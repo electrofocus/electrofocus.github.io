@@ -5,8 +5,8 @@ electrofocus/Amir Mullagaliev is a DJ and software engineer based in Tashkent. H
 --- Contacts & Portfolio ---
 
 Nickname: electrofocus (with lowercase)
-Name (rus): Amir Mullagaliev
-Name (eng): Амир Муллагалиев
+Name (eng): Amir Mullagaliev
+Name (rus): Амир Муллагалиев
 Portfolio: linktr.ee/electrofocus
 
 amirmullagaliev@gmail.com, amirmullagaliev@icloud.com, electrofocus@icloud.com
